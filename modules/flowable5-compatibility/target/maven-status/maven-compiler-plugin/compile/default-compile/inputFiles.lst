@@ -1,0 +1,8 @@
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-compatibility/src/main/java/org/flowable/compatibility/wrapper/Flowable5ProcessInstanceWrapper.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-compatibility/src/main/java/org/flowable/compatibility/wrapper/Flowable5AttachmentWrapper.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-compatibility/src/main/java/org/flowable/compatibility/wrapper/Flowable5DeploymentWrapper.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-compatibility/src/main/java/org/flowable/compatibility/DefaultProcessEngineFactory.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-compatibility/src/main/java/org/flowable/compatibility/wrapper/Flowable5TaskWrapper.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-compatibility/src/main/java/org/flowable/compatibility/wrapper/Flowable5CommentWrapper.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-compatibility/src/main/java/org/flowable/compatibility/DefaultFlowable5CompatibilityHandler.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-compatibility/src/main/java/org/flowable/compatibility/wrapper/Flowable5TaskFormDataWrapper.java

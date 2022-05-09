@@ -1,0 +1,11 @@
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel-cdi/src/test/java/org/flowable/camel/cdi/named/CdiCustomContextTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel-cdi/src/test/java/org/flowable/camel/cdi/named/CdiCustomNonDefaultNamedContextTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel-cdi/src/test/java/org/flowable/camel/cdi/named/CdiCamelContextFactory.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel-cdi/src/test/java/org/flowable/camel/cdi/std/CdiAsyncPingTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel-cdi/src/test/java/org/flowable/camel/cdi/std/CdiCamelVariableBodyMapTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel-cdi/src/test/java/org/flowable/camel/cdi/std/CdiSimpleProcessTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel-cdi/src/test/java/org/flowable/camel/cdi/std/CdiCamelVariableBodyTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel-cdi/src/test/java/org/flowable/camel/cdi/std/StdCamelCdiFlowableTestCase.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel-cdi/src/test/java/org/flowable/camel/cdi/CamelCdiTestProcessEngineLookup.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel-cdi/src/test/java/org/flowable/camel/cdi/named/NamedCamelCdiFlowableTestCase.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel-cdi/src/test/java/org/flowable/camel/cdi/BaseCamelCdiFlowableTestCase.java

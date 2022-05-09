@@ -1,0 +1,14 @@
+org/flowable/common/spring/SpringTransactionInterceptor$1.class
+org/flowable/common/spring/CommonAutoDeploymentStrategy.class
+org/flowable/common/spring/SpringTransactionContext$4.class
+org/flowable/common/spring/SpringTransactionInterceptor.class
+org/flowable/common/spring/SpringTransactionContext$TransactionSynchronizationAdapter.class
+org/flowable/common/spring/async/SpringAsyncTaskExecutor.class
+org/flowable/common/spring/SpringTransactionContextFactory.class
+org/flowable/common/spring/AutoDeploymentStrategy.class
+org/flowable/common/spring/SpringTransactionContext.class
+org/flowable/common/spring/SpringTransactionContext$1.class
+org/flowable/common/spring/SpringTransactionContext$2.class
+org/flowable/common/spring/SpringEngineConfiguration.class
+org/flowable/common/spring/SpringTransactionContext$3.class
+org/flowable/common/spring/CommonAutoDeploymentProperties.class

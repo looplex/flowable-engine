@@ -1,0 +1,4 @@
+org/flowable/identitylink/api/IdentityLinkInfo.class
+org/flowable/identitylink/api/history/HistoricIdentityLink.class
+org/flowable/identitylink/api/IdentityLinkType.class
+org/flowable/identitylink/api/IdentityLink.class

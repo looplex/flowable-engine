@@ -1,0 +1,11 @@
+org/flowable/app/api/repository/AppResourceConverter.class
+org/flowable/app/api/repository/AppDeploymentQuery.class
+org/flowable/app/api/repository/AppDefinitionQuery.class
+org/flowable/app/api/AppRepositoryService.class
+org/flowable/app/api/AppManagementService.class
+org/flowable/app/api/AppEngineConfigurationApi.class
+org/flowable/app/api/repository/AppDefinitionBaseQuery.class
+org/flowable/app/api/repository/AppDeployment.class
+org/flowable/app/api/repository/AppDeploymentBuilder.class
+org/flowable/app/api/repository/AppModel.class
+org/flowable/app/api/repository/AppDefinition.class

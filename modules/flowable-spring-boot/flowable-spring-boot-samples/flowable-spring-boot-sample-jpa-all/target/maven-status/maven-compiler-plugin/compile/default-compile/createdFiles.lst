@@ -1,0 +1,5 @@
+flowable/Application.class
+flowable/PhotoService.class
+flowable/PhotoServiceImpl.class
+flowable/PhotoRepository.class
+flowable/Photo.class

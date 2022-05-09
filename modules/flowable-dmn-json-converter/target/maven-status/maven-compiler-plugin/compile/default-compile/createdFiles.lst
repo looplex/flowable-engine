@@ -1,0 +1,8 @@
+org/flowable/dmn/editor/converter/StandaloneDmnConverterContext.class
+org/flowable/dmn/editor/constants/DmnStencilConstants.class
+org/flowable/dmn/editor/converter/DmnJsonConverterUtil.class
+org/flowable/dmn/editor/converter/DmnJsonConverterUtil$JsonLookupResult.class
+org/flowable/dmn/editor/constants/DmnJsonConstants.class
+org/flowable/dmn/editor/constants/EditorJsonConstants.class
+org/flowable/dmn/editor/converter/DmnJsonConverterContext.class
+org/flowable/dmn/editor/converter/DmnJsonConverter.class

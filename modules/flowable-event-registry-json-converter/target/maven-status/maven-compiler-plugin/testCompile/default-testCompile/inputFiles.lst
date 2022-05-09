@@ -1,0 +1,11 @@
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-json-converter/src/test/java/org/flowable/eventregistry/converter/channel/AbstractChannelConverterTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-json-converter/src/test/java/org/flowable/eventregistry/converter/channel/RabbitOutboundChannelJsonConverterTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-json-converter/src/test/java/org/flowable/eventregistry/converter/EventJsonConverterTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-json-converter/src/test/java/org/flowable/eventregistry/converter/channel/JmsOutboundChannelJsonConverterTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-json-converter/src/test/java/org/flowable/eventregistry/converter/channel/DelegateExpressionInboundChannelJsonConverterTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-json-converter/src/test/java/org/flowable/eventregistry/converter/channel/KafkaOutboundChannelJsonConverterTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-json-converter/src/test/java/org/flowable/eventregistry/converter/channel/JmsInboundChannelJsonConverterTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-json-converter/src/test/java/org/flowable/eventregistry/converter/channel/RabbitInboundChannelJsonConverterTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-json-converter/src/test/java/org/flowable/eventregistry/converter/channel/KafkaInboundChannelJsonConverterTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-json-converter/src/test/java/org/flowable/eventregistry/converter/channel/InvalidChannelModelJsonConverterTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-json-converter/src/test/java/org/flowable/eventregistry/converter/channel/DelegateExpressionOutboundChannelJsonConverterTest.java

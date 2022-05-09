@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605850880
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Flowable - Groovy static compiled scripts engine
+Bundle-SymbolicName: org.flowable.groovy.script.static.engine
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Implementation-Title: Flowable - Groovy static compiled scripts engine
+Implementation-URL: http://www.flowable.org/modules/flowable-groovy-scri
+ pt-static-engine
+Implementation-Vendor: Flowable
+Implementation-Vendor-Id: org.flowable
+Implementation-Version: 6.7.2
+Import-Package: groovy.lang;version="[3.0,4)",groovy.transform;version="
+ [3.0,4)",javax.script,org.codehaus.groovy.ast;version="[3.0,4)",org.cod
+ ehaus.groovy.control;version="[3.0,4)",org.codehaus.groovy.control.cust
+ omizers;version="[3.0,4)",org.codehaus.groovy.jsr223;version="[3.0,4)",
+ org.flowable.osgi;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

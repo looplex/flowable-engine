@@ -1,0 +1,3 @@
+org/activiti/compatibility/spring/DefaultSpringProcessEngineFactory.class
+org/activiti/compatibility/spring/SpringFlowable5CompatibilityHandlerFactory.class
+org/activiti/compatibility/spring/DefaultFlowable5SpringCompatibilityHandler.class

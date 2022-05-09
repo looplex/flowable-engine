@@ -1,0 +1,12 @@
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/test/java/org/flowable/external/job/rest/conf/CmmnEngineTestConfiguration.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/test/java/org/flowable/external/job/rest/service/ExternalJobRestSpringBootTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/test/java/org/flowable/external/job/rest/conf/CmmnEngineWithBpmnConfiguration.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/test/java/org/flowable/external/job/rest/conf/BpmnEngineTestConfiguration.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/test/java/org/flowable/external/job/rest/service/api/query/ExternalWorkerJobResourceTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/test/java/org/flowable/external/job/rest/service/api/query/ExternalWorkerJobCollectionResourceTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/test/java/org/flowable/external/job/rest/service/api/acquire/ExternalWorkerAcquireJobResourceTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/test/java/org/flowable/external/job/rest/service/ExternalJobCmmnRestSpringBootTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/test/java/org/flowable/external/job/rest/conf/ExternalJobRestTestApplication.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/test/java/org/flowable/external/job/rest/service/ExternalJobBpmnRestSpringBootTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/test/java/org/flowable/external/job/rest/service/DispatcherServletConfiguration.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/test/java/org/flowable/external/job/rest/conf/CmmnEngineStandaloneConfiguration.java

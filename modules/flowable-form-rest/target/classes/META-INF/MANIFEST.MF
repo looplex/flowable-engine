@@ -1,0 +1,52 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605855350
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Flowable - Form REST
+Bundle-SymbolicName: org.flowable.form.rest
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.flowable.form.rest;uses:="javax.servlet.http,org.flo
+ wable.form.api,org.flowable.form.rest.service.api.form,org.flowable.for
+ m.rest.service.api.repository";version="6.7.2",org.flowable.form.rest.s
+ ervice.api.form;uses:="io.swagger.annotations,javax.servlet.http,org.fl
+ owable.common.rest.api,org.flowable.form.api,org.flowable.form.model,or
+ g.flowable.form.rest,org.springframework.beans.factory.annotation,org.s
+ pringframework.web.bind.annotation";version="6.7.2",org.flowable.form.r
+ est.service.api.management;uses:="io.swagger.annotations,org.flowable.c
+ ommon.rest.api,org.flowable.form.rest,org.springframework.beans.factory
+ .annotation,org.springframework.web.bind.annotation";version="6.7.2",or
+ g.flowable.form.rest.service.api.repository;uses:="com.fasterxml.jackso
+ n.databind.annotation,io.swagger.annotations,javax.servlet.http,org.flo
+ wable.common.rest.api,org.flowable.common.rest.resolver,org.flowable.co
+ mmon.rest.util,org.flowable.form.api,org.flowable.form.rest,org.flowabl
+ e.form.rest.service.api.form,org.springframework.beans.factory.annotati
+ on,org.springframework.web.bind.annotation";version="6.7.2"
+Implementation-Title: Flowable - Form REST
+Implementation-URL: http://www.flowable.org/modules/flowable-form-rest
+Implementation-Vendor: Flowable
+Implementation-Vendor-Id: org.flowable
+Implementation-Version: 6.7.2
+Import-Package: org.flowable.common.engine.api;version="[6.7,6.8)",org.f
+ lowable.common.engine.api.query;version="[6.7,6.8)",org.flowable.common
+ .engine.impl;version="[6.7,6.8)",org.flowable.common.rest.api;version="
+ [6.7,6.8)",org.flowable.common.rest.resolver;version="[6.7,6.8)",org.fl
+ owable.common.rest.util;version="[6.7,6.8)",org.flowable.form.api;versi
+ on="[6.7,6.8)",org.flowable.form.engine;version="[6.7,6.8)",org.flowabl
+ e.form.engine.impl;version="[6.7,6.8)",org.flowable.form.model;version=
+ "[6.7,6.8)",org.flowable.form.rest;version="[6.7,6.8)",org.flowable.for
+ m.rest.service.api.form;version="[6.7,6.8)",org.flowable.form.rest.serv
+ ice.api.repository;version="[6.7,6.8)",com.fasterxml.jackson.databind.a
+ nnotation;version="[2.13,3)",io.swagger.annotations;version="[1.6,2)",j
+ avax.servlet.http;version="[3.1,4)",org.apache.commons.io;version="[1.4
+ ,2)",org.apache.commons.lang3;version="[3.12,4)",org.springframework.be
+ ans.factory.annotation,org.springframework.http,org.springframework.web
+ .bind.annotation,org.springframework.web.multipart,org.springframework.
+ web.servlet.support,org.springframework.web.util,org.flowable.osgi;reso
+ lution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

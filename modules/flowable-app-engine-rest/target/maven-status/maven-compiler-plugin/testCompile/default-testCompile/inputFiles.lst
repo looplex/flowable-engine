@@ -1,0 +1,17 @@
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-app-engine-rest/src/test/java/org/flowable/app/rest/WebConfigurer.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-app-engine-rest/src/test/java/org/flowable/app/rest/service/api/repository/DeploymentResourceTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-app-engine-rest/src/test/java/org/flowable/app/rest/service/api/repository/DeploymentResourceResourceTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-app-engine-rest/src/test/java/org/flowable/app/rest/conf/common/JacksonConfiguration.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-app-engine-rest/src/test/java/org/flowable/app/rest/service/HttpMultipartHelper.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-app-engine-rest/src/test/java/org/flowable/app/rest/conf/ApplicationConfiguration.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-app-engine-rest/src/test/java/org/flowable/app/rest/DispatcherServletConfiguration.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-app-engine-rest/src/test/java/org/flowable/app/rest/util/TestServerUtil.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-app-engine-rest/src/test/java/org/flowable/app/rest/service/api/repository/DeploymentResourcesResourceTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-app-engine-rest/src/test/java/org/flowable/app/rest/conf/common/RestConfiguration.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-app-engine-rest/src/test/java/org/flowable/app/rest/conf/common/SecurityConfiguration.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-app-engine-rest/src/test/java/org/flowable/app/rest/service/BaseSpringRestTestCase.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-app-engine-rest/src/test/java/org/flowable/app/rest/conf/engine/EngineConfiguration.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-app-engine-rest/src/test/java/org/flowable/app/rest/conf/common/RestExceptionHandlerAdvice.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-app-engine-rest/src/test/java/org/flowable/app/rest/service/api/repository/AppDefinitionCollectionResourceTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-app-engine-rest/src/test/java/org/flowable/app/rest/service/api/repository/DeploymentCollectionResourceTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-app-engine-rest/src/test/java/org/flowable/app/rest/service/api/repository/AppDefinitionResourceTest.java

@@ -1,0 +1,58 @@
+version: '3.6'
+services:
+    flowable-ui-app:
+        image: flowable/flowable-ui
+        depends_on:
+            - flowable-ui-db
+        environment:
+            - SERVER_PORT=8080
+            - SPRING_DATASOURCE_DRIVER-CLASS-NAME=com.mysql.cj.jdbc.Driver
+            - SPRING_DATASOURCE_URL=jdbc:mysql://flowable-ui-db:3306/flowable?characterEncoding=UTF-8
+            - SPRING_DATASOURCE_USERNAME=flowable
+            - SPRING_DATASOURCE_PASSWORD=flowable
+            - FLOWABLE_COMMON_APP_IDM-ADMIN_USER=admin
+            - FLOWABLE_COMMON_APP_IDM-ADMIN_PASSWORD=test
+            - FLOWABLE_TASK_APP_REST-ENABLED=true
+            - FLOWABLE_PROCESS_ASYNC_EXECUTOR_ENABLED=true
+            - FLOWABLE_CMMN_ASYNC_EXECUTOR_ENABLED=true
+            - FLOWABLE_ASYNC-EXECUTOR-ACTIVATE=true
+            - FLOWABLE_EXPERIMENTAL_DEBUGGER_ENABLED=true
+        ports:
+            - 8080:8080
+        extra_hosts:
+            - "host.docker.internal:host-gateway"
+
+    flowable-rest-app:
+        image: flowable/flowable-rest
+        depends_on:
+            - flowable-ui-db
+        environment:
+            - SERVER_PORT=8080
+            - SPRING_DATASOURCE_DRIVER-CLASS-NAME=com.mysql.cj.jdbc.Driver
+            - SPRING_DATASOURCE_URL=jdbc:mysql://flowable-ui-db:3306/flowable?characterEncoding=UTF-8
+            - SPRING_DATASOURCE_USERNAME=flowable
+            - SPRING_DATASOURCE_PASSWORD=flowable
+            - FLOWABLE_COMMON_APP_IDM-ADMIN_USER=admin
+            - FLOWABLE_COMMON_APP_IDM-ADMIN_PASSWORD=test
+        ports:
+            - 8088:8080
+        entrypoint: ["./wait-for-something.sh", "flowable-ui-db", "3306", "MySQL", "/flowable-entrypoint.sh"]
+
+
+    flowable-ui-db:
+        image: mysql:8.0.22
+        container_name: flowable-ui-mysql
+        volumes:
+            - db_data:/var/lib/mysql
+        environment:
+            - MYSQL_ROOT_PASSWORD=flowable
+            - MYSQL_DATABASE=flowable
+            - MYSQL_USER=flowable
+            - MYSQL_PASSWORD=flowable
+        ports:
+            - 3309:3306
+        cap_add:
+            - SYS_NICE # CAP_SYS_NICE
+
+volumes:
+    db_data: {}

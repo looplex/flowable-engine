@@ -1,0 +1,385 @@
+{
+  "groups": [
+    {
+      "name": "flowable.common.app",
+      "type": "org.flowable.ui.common.properties.FlowableCommonAppProperties",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties"
+    },
+    {
+      "name": "flowable.common.app.cache-login-tokens",
+      "type": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Cache",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties",
+      "sourceMethod": "getCacheLoginTokens()"
+    },
+    {
+      "name": "flowable.common.app.cache-login-users",
+      "type": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Cache",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties",
+      "sourceMethod": "getCacheLoginUsers()"
+    },
+    {
+      "name": "flowable.common.app.cache-users",
+      "type": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Cache",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties",
+      "sourceMethod": "getCacheUsers()"
+    },
+    {
+      "name": "flowable.common.app.idm-admin",
+      "type": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Admin",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties",
+      "sourceMethod": "getIdmAdmin()"
+    },
+    {
+      "name": "flowable.common.app.security",
+      "type": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Security",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties",
+      "sourceMethod": "getSecurity()"
+    },
+    {
+      "name": "flowable.common.app.security.cookie",
+      "type": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Cookie",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Security",
+      "sourceMethod": "getCookie()"
+    },
+    {
+      "name": "flowable.common.app.security.o-auth2",
+      "type": "org.flowable.ui.common.properties.FlowableCommonAppProperties$OAuth2",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Security",
+      "sourceMethod": "getOAuth2()"
+    },
+    {
+      "name": "flowable.rest.app",
+      "type": "org.flowable.ui.common.properties.FlowableRestAppProperties",
+      "sourceType": "org.flowable.ui.common.properties.FlowableRestAppProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "flowable.common.app.cache-login-tokens.max-age",
+      "type": "java.lang.Long",
+      "description": "The max age in seconds after which the entry should be invalidated.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Cache",
+      "defaultValue": 30
+    },
+    {
+      "name": "flowable.common.app.cache-login-tokens.max-size",
+      "type": "java.lang.Long",
+      "description": "The maximum number of entries that the cache should contain.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Cache",
+      "defaultValue": 2048
+    },
+    {
+      "name": "flowable.common.app.cache-login-users.max-age",
+      "type": "java.lang.Long",
+      "description": "The max age in seconds after which the entry should be invalidated.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Cache",
+      "defaultValue": 30
+    },
+    {
+      "name": "flowable.common.app.cache-login-users.max-size",
+      "type": "java.lang.Long",
+      "description": "The maximum number of entries that the cache should contain.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Cache",
+      "defaultValue": 2048
+    },
+    {
+      "name": "flowable.common.app.cache-users.max-age",
+      "type": "java.lang.Long",
+      "description": "The max age in seconds after which the entry should be invalidated.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Cache",
+      "defaultValue": 30
+    },
+    {
+      "name": "flowable.common.app.cache-users.max-size",
+      "type": "java.lang.Long",
+      "description": "The maximum number of entries that the cache should contain.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Cache",
+      "defaultValue": 2048
+    },
+    {
+      "name": "flowable.common.app.idm-admin.password",
+      "type": "java.lang.String",
+      "description": "The password used for executing the REST calls (with basic auth) to the IDM REST services. Default is test.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Admin"
+    },
+    {
+      "name": "flowable.common.app.idm-admin.user",
+      "type": "java.lang.String",
+      "description": "The username used for executing the REST calls (with basic auth) to the IDM REST services. Default is admin",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Admin",
+      "defaultValue": "admin"
+    },
+    {
+      "name": "flowable.common.app.idm-redirect-url",
+      "type": "java.lang.String",
+      "description": "The redirect URL to the IDM application, used for the login redirect when the cookie isn't set or is invalid.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties"
+    },
+    {
+      "name": "flowable.common.app.idm-url",
+      "type": "java.lang.String",
+      "description": "The URL to the IDM application, used for the user info and token info REST GET calls. It's also used as a fallback for the redirect url to the login page in the UI apps.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties"
+    },
+    {
+      "name": "flowable.common.app.redirect-on-auth-success",
+      "type": "java.lang.String",
+      "description": "The URL to which the redirect should occur after a successful authentication.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties"
+    },
+    {
+      "name": "flowable.common.app.role-prefix",
+      "type": "java.lang.String",
+      "description": "The default role prefix that needs to be used by Spring Security.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties",
+      "defaultValue": "ROLE_"
+    },
+    {
+      "name": "flowable.common.app.security.cookie.domain",
+      "type": "java.lang.String",
+      "description": "The domain for the cookie.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Cookie"
+    },
+    {
+      "name": "flowable.common.app.security.cookie.max-age",
+      "type": "java.time.Duration",
+      "description": "The max age of the security cookie. Default is 31 days.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Cookie",
+      "defaultValue": "31d"
+    },
+    {
+      "name": "flowable.common.app.security.cookie.refresh-age",
+      "type": "java.time.Duration",
+      "description": "The refresh age of the token. Default is 1 day.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Cookie",
+      "defaultValue": "1d"
+    },
+    {
+      "name": "flowable.common.app.security.o-auth2.authorities-attribute",
+      "type": "java.lang.String",
+      "description": "The attribute that contains the authorities that should be mapped for the authenticated user.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$OAuth2"
+    },
+    {
+      "name": "flowable.common.app.security.o-auth2.default-authorities",
+      "type": "java.util.Collection<java.lang.String>",
+      "description": "The default authorities that should be added to every user.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$OAuth2"
+    },
+    {
+      "name": "flowable.common.app.security.o-auth2.default-groups",
+      "type": "java.util.Collection<java.lang.String>",
+      "description": "The default groups that should be added to every user.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$OAuth2"
+    },
+    {
+      "name": "flowable.common.app.security.o-auth2.email-attribute",
+      "type": "java.lang.String",
+      "description": "The key of the attribute that holds the email of the user.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$OAuth2"
+    },
+    {
+      "name": "flowable.common.app.security.o-auth2.first-name-attribute",
+      "type": "java.lang.String",
+      "description": "The key of the attribute that holds the first name of the user.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$OAuth2"
+    },
+    {
+      "name": "flowable.common.app.security.o-auth2.full-name-attribute",
+      "type": "java.lang.String",
+      "description": "The key of the attribute that holds the full of the user.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$OAuth2"
+    },
+    {
+      "name": "flowable.common.app.security.o-auth2.groups-attribute",
+      "type": "java.lang.String",
+      "description": "The attribute that contains the groups for the authenticated user.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$OAuth2"
+    },
+    {
+      "name": "flowable.common.app.security.o-auth2.last-name-attribute",
+      "type": "java.lang.String",
+      "description": "The key of the attribute that holds the last name of the user.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$OAuth2"
+    },
+    {
+      "name": "flowable.common.app.security.remember-me-key",
+      "type": "java.lang.String",
+      "description": "The hash key that is used by Spring Security to hash the password values in the applications. Make sure that you change the value of this property.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Security",
+      "defaultValue": "testKey"
+    },
+    {
+      "name": "flowable.common.app.security.type",
+      "type": "java.lang.String",
+      "description": "The type of the security for the UI Apps.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Security",
+      "defaultValue": "idm"
+    },
+    {
+      "name": "flowable.common.app.security.user-validity-period",
+      "type": "java.lang.Long",
+      "description": "How long should a user be cached before invalidating it in the cache for the cacheable CustomUserDetailsService.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties$Security",
+      "defaultValue": 30000
+    },
+    {
+      "name": "flowable.common.app.tenant-id",
+      "type": "java.lang.String",
+      "description": "The static tenant id used for the DefaultTenantProvider. The modeler app uses this to determine under which tenant id to store and publish models. When not provided, empty or only contains whitespace it defaults to the user's tenant id if available otherwise it uses no tenant id.",
+      "sourceType": "org.flowable.ui.common.properties.FlowableCommonAppProperties"
+    },
+    {
+      "name": "flowable.rest.app.authentication-mode",
+      "type": "java.lang.String",
+      "description": "Configures the way user credentials are verified when doing a REST API call: 'any-user' : the user needs to exist and the password need to match. Any user is allowed to do the call (this is the pre 6.3.0 behavior) 'verify-privilege' : the user needs to exist, the password needs to match and the user needs to have the 'rest-api' privilege If nothing set, defaults to 'verify-privilege'",
+      "sourceType": "org.flowable.ui.common.properties.FlowableRestAppProperties",
+      "defaultValue": "verify-privilege"
+    },
+    {
+      "name": "app.redirect.url.on.authsuccess",
+      "type": "java.lang.String",
+      "deprecated": true,
+      "deprecation": {
+        "level": "error",
+        "reason": "Using Flowable IDM App auto-configuration instead.",
+        "replacement": "flowable.common.app.redirect-on-auth-success"
+      }
+    },
+    {
+      "name": "cache.login-tokens.max.age",
+      "type": "java.lang.Long",
+      "deprecated": true,
+      "deprecation": {
+        "level": "error",
+        "reason": "Using Flowable IDM App auto-configuration instead.",
+        "replacement": "flowable.common.app.cache-login-tokens.max-age"
+      }
+    },
+    {
+      "name": "cache.login-tokens.max.size",
+      "type": "java.lang.Long",
+      "deprecated": true,
+      "deprecation": {
+        "level": "error",
+        "reason": "Using Flowable IDM App auto-configuration instead.",
+        "replacement": "flowable.common.app.cache-login-tokens.max-size"
+      }
+    },
+    {
+      "name": "cache.login-users.max.age",
+      "type": "java.lang.Long",
+      "deprecated": true,
+      "deprecation": {
+        "level": "error",
+        "reason": "Using Flowable IDM App auto-configuration instead.",
+        "replacement": "flowable.common.app.cache-login-users.max-age"
+      }
+    },
+    {
+      "name": "cache.login-users.max.size",
+      "type": "java.lang.Long",
+      "deprecated": true,
+      "deprecation": {
+        "level": "error",
+        "reason": "Using Flowable IDM App auto-configuration instead.",
+        "replacement": "flowable.common.app.cache-login-users.max-size"
+      }
+    },
+    {
+      "name": "cache.users.max.age",
+      "type": "java.lang.Long",
+      "deprecated": true,
+      "deprecation": {
+        "level": "error",
+        "reason": "Using Flowable IDM App auto-configuration instead.",
+        "replacement": "flowable.common.app.cache-users.max-age"
+      }
+    },
+    {
+      "name": "cache.users.max.size",
+      "type": "java.lang.Long",
+      "deprecated": true,
+      "deprecation": {
+        "level": "error",
+        "reason": "Using Flowable IDM App auto-configuration instead.",
+        "replacement": "flowable.common.app.cache-users.max-size"
+      }
+    },
+    {
+      "name": "file.upload.max.size",
+      "type": "java.lang.String",
+      "deprecated": true,
+      "deprecation": {
+        "level": "error",
+        "reason": "Using Spring Boot MultiPartAutoConfiguration instead.",
+        "replacement": "spring.servlet.multipart.max-file-size"
+      }
+    },
+    {
+      "name": "idm.admin.password",
+      "type": "java.lang.String",
+      "deprecated": true,
+      "deprecation": {
+        "level": "error",
+        "reason": "Using Flowable IDM App auto-configuration instead.",
+        "replacement": "flowable.common.app.idm-admin.password"
+      }
+    },
+    {
+      "name": "idm.admin.user",
+      "type": "java.lang.String",
+      "deprecated": true,
+      "deprecation": {
+        "level": "error",
+        "reason": "Using Flowable IDM App auto-configuration instead.",
+        "replacement": "flowable.common.app.idm-admin.user"
+      }
+    },
+    {
+      "name": "idm.app.redirect.url",
+      "type": "java.lang.String",
+      "deprecated": true,
+      "deprecation": {
+        "level": "error",
+        "reason": "Using Flowable IDM App auto-configuration instead.",
+        "replacement": "flowable.common.app.idm-redirect-url"
+      }
+    },
+    {
+      "name": "idm.app.url",
+      "type": "java.lang.String",
+      "deprecated": true,
+      "deprecation": {
+        "level": "error",
+        "reason": "Using Flowable IDM App auto-configuration instead.",
+        "replacement": "flowable.common.app.idm-url"
+      }
+    },
+    {
+      "name": "rest.authentication.mode",
+      "type": "java.lang.String",
+      "deprecated": true,
+      "deprecation": {
+        "level": "error",
+        "reason": "Using improved setup for Spring Boot.",
+        "replacement": "flowable.rest.app.authentication-mode"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "name": "flowable.common.app.security.type",
+      "values": [
+        {
+          "value": "idm",
+          "description": "Use Flowable IDM app as security for the UI apps."
+        },
+        {
+          "value": "oauth2",
+          "description": "Use OAuth2 as security for the UI apps."
+        }
+      ]
+    }
+  ]
+}

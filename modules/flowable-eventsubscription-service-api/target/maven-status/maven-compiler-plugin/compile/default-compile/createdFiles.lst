@@ -1,0 +1,3 @@
+org/flowable/eventsubscription/api/EventSubscriptionBuilder.class
+org/flowable/eventsubscription/api/EventSubscriptionQuery.class
+org/flowable/eventsubscription/api/EventSubscription.class

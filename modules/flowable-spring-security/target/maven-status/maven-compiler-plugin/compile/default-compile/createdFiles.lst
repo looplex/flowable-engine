@@ -1,0 +1,7 @@
+org/flowable/spring/security/FlowableAuthenticationProvider.class
+org/flowable/spring/security/FlowableUser.class
+org/flowable/spring/security/SpringSecurityAuthenticationContext.class
+org/flowable/spring/security/FlowableUserDetails.class
+org/flowable/spring/security/FlowableUserDetailsService.class
+org/flowable/spring/security/GroupDetails.class
+org/flowable/spring/security/UserDto.class

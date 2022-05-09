@@ -1,0 +1,17 @@
+org/flowable/dmn/test/history/HistoryTest.class
+org/flowable/dmn/test/runtime/DmnTaskTest$3.class
+org/flowable/dmn/test/runtime/DecisionTaskTest$2.class
+org/flowable/dmn/engine/test/MixedDeploymentTest.class
+org/flowable/dmn/test/runtime/DecisionTaskTest$5.class
+org/flowable/dmn/test/runtime/DmnTaskTest$2.class
+org/flowable/dmn/test/runtime/DecisionTaskTest$3.class
+org/flowable/dmn/test/runtime/DecisionTaskTest$6.class
+org/flowable/dmn/test/runtime/DmnTaskTest$6.class
+org/flowable/dmn/test/runtime/DecisionTaskTest.class
+org/flowable/dmn/test/runtime/DmnTaskTest$1.class
+org/flowable/dmn/test/runtime/DmnTaskTest$5.class
+org/flowable/dmn/test/runtime/DmnTaskTest.class
+org/flowable/dmn/test/runtime/DecisionTaskTest$1.class
+org/flowable/dmn/test/runtime/DmnTaskTest$4.class
+org/flowable/dmn/engine/test/AbstractFlowableDmnEngineConfiguratorTest.class
+org/flowable/dmn/test/runtime/DecisionTaskTest$4.class

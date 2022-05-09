@@ -1,0 +1,4 @@
+org/flowable/http/delegate/HttpResponseHandler.class
+org/flowable/http/delegate/HttpRequestHandler.class
+org/flowable/http/HttpResponse.class
+org/flowable/http/HttpRequest.class

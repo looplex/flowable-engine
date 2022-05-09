@@ -1,0 +1,13 @@
+org/flowable/content/api/ContentStorage.class
+org/flowable/content/api/ContentObjectStorageMetadata.class
+org/flowable/content/api/ContentManagementService.class
+org/flowable/content/api/ContentItemQuery.class
+org/flowable/content/api/ContentItemBaseQuery.class
+org/flowable/content/api/ContentObject.class
+org/flowable/content/api/ContentEngineConfigurationApi.class
+org/flowable/content/api/ContentService.class
+org/flowable/content/api/ContentStorageException.class
+org/flowable/content/api/ContentNotFoundException.class
+org/flowable/content/api/ContentMetaDataKeys.class
+org/flowable/content/api/ContentChangeTenantIdEntityTypes.class
+org/flowable/content/api/ContentItem.class

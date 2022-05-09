@@ -1,0 +1,8 @@
+org/flowable/dmn/image/impl/DefaultDecisionRequirementsDiagramCanvas$SHAPE_TYPE.class
+org/flowable/dmn/image/DecisionRequirementsDiagramGenerator.class
+org/flowable/dmn/image/util/ReflectUtil.class
+org/flowable/dmn/image/impl/DefaultDecisionRequirementsDiagramCanvas.class
+org/flowable/dmn/image/impl/DefaultDecisionRequirementsDiagramGenerator$ActivityDrawInstruction.class
+org/flowable/dmn/image/impl/DefaultDecisionRequirementsDiagramGenerator.class
+org/flowable/dmn/image/exception/FlowableImageException.class
+org/flowable/dmn/image/impl/DefaultDecisionRequirementsDiagramGenerator$1.class

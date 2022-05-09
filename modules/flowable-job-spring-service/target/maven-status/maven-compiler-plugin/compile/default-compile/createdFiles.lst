@@ -1,0 +1,4 @@
+org/flowable/spring/job/service/SpringCallerRunsRejectedJobsHandler.class
+org/flowable/spring/job/service/SpringRejectedJobsHandler.class
+org/flowable/spring/job/service/SpringAsyncHistoryExecutor.class
+org/flowable/spring/job/service/SpringAsyncExecutor.class

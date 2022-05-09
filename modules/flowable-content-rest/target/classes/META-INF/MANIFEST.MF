@@ -1,0 +1,49 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605864612
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Flowable - Content - REST
+Bundle-SymbolicName: org.flowable.content.rest
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.flowable.content.rest;uses:="javax.servlet.http,org.
+ flowable.content.api,org.flowable.content.rest.service.api.content";ver
+ sion="6.7.2",org.flowable.content.rest.service.api.content;uses:="com.f
+ asterxml.jackson.databind,com.fasterxml.jackson.databind.annotation,io.
+ swagger.annotations,javax.servlet.http,org.flowable.common.rest.api,org
+ .flowable.common.rest.util,org.flowable.content.api,org.flowable.conten
+ t.rest,org.springframework.beans.factory.annotation,org.springframework
+ .core.io,org.springframework.http,org.springframework.web.bind.annotati
+ on,org.springframework.web.multipart";version="6.7.2",org.flowable.cont
+ ent.rest.service.api.management;uses:="io.swagger.annotations,org.flowa
+ ble.common.rest.api,org.flowable.content.rest,org.springframework.beans
+ .factory.annotation,org.springframework.web.bind.annotation";version="6
+ .7.2"
+Implementation-Title: Flowable - Content - REST
+Implementation-URL: http://www.flowable.org/modules/flowable-content-res
+ t
+Implementation-Vendor: Flowable
+Implementation-Vendor-Id: org.flowable
+Implementation-Version: 6.7.2
+Import-Package: org.flowable.common.engine.api;version="[6.7,6.8)",org.f
+ lowable.common.engine.api.query;version="[6.7,6.8)",org.flowable.common
+ .engine.impl;version="[6.7,6.8)",org.flowable.common.rest.api;version="
+ [6.7,6.8)",org.flowable.common.rest.util;version="[6.7,6.8)",org.flowab
+ le.content.api;version="[6.7,6.8)",org.flowable.content.engine;version=
+ "[6.7,6.8)",org.flowable.content.engine.impl;version="[6.7,6.8)",org.fl
+ owable.content.rest;version="[6.7,6.8)",org.flowable.content.rest.servi
+ ce.api.content;version="[6.7,6.8)",com.fasterxml.jackson.databind;versi
+ on="[2.13,3)",com.fasterxml.jackson.databind.annotation;version="[2.13,
+ 3)",io.swagger.annotations;version="[1.6,2)",javax.servlet;version="[3.
+ 1,4)",javax.servlet.http;version="[3.1,4)",org.apache.commons.lang3;ver
+ sion="[3.12,4)",org.springframework.beans.factory.annotation,org.spring
+ framework.core.io,org.springframework.http,org.springframework.web.bind
+ .annotation,org.springframework.web.multipart,org.springframework.web.s
+ ervlet.support,org.springframework.web.util,org.flowable.osgi;resolutio
+ n:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

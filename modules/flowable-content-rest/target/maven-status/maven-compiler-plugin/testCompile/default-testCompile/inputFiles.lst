@@ -1,0 +1,14 @@
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/test/java/org/flowable/content/rest/WebConfigurer.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/test/java/org/flowable/content/rest/conf/common/JacksonConfiguration.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/test/java/org/flowable/content/rest/conf/engine/FlowableContentEngineConfiguration.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/test/java/org/flowable/content/rest/conf/ApplicationConfiguration.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/test/java/org/flowable/content/rest/DispatcherServletConfiguration.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/test/java/org/flowable/content/rest/util/TestServerUtil.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/test/java/org/flowable/content/rest/conf/common/SecurityConfiguration.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/test/java/org/flowable/content/rest/service/api/content/ContentItemQueryResourceTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/test/java/org/flowable/content/rest/conf/common/RestConfiguration.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/test/java/org/flowable/content/rest/service/api/HttpMultipartHelper.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/test/java/org/flowable/content/rest/service/api/BaseSpringContentRestTestCase.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/test/java/org/flowable/content/rest/service/api/content/ContentItemResourceTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/test/java/org/flowable/content/rest/conf/common/RestExceptionHandlerAdvice.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/test/java/org/flowable/content/rest/service/api/content/ContentItemCollectionResourceTest.java

@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605968152
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Flowable - Camel
+Bundle-SymbolicName: org.flowable.camel
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.flowable.camel;uses:="org.apache.camel,org.apache.ca
+ mel.impl,org.flowable.bpmn.model,org.flowable.common.engine.api.delegat
+ e,org.flowable.engine,org.flowable.engine.delegate,org.flowable.engine.
+ impl.bpmn.behavior,org.flowable.engine.impl.delegate,org.flowable.engin
+ e.runtime";version="6.7.2",org.flowable.camel.impl;uses:="org.flowable.
+ camel";version="6.7.2"
+Implementation-Title: Flowable
+Implementation-Version: 6.7.2
+Import-Package: org.apache.camel;version="[2.25,3)",org.apache.camel.imp
+ l;version="[2.25,3)",org.apache.camel.spi;version="[2.25,3)",org.apache
+ .camel.util;version="[2.25,3)",org.apache.commons.lang3;version="[3.12,
+ 4)",org.flowable.bpmn.model;version="[6.7,7)",org.flowable.camel,org.fl
+ owable.common.engine.api;version="[6.7,7)",org.flowable.common.engine.a
+ pi.delegate;version="[6.7,7)",org.flowable.common.engine.api.variable;v
+ ersion="[6.7,7)",org.flowable.common.engine.impl.context;version="[6.7,
+ 7)",org.flowable.common.engine.impl.interceptor;version="[6.7,7)",org.f
+ lowable.engine;version="[6.7,7)",org.flowable.engine.compatibility;vers
+ ion="[6.7,7)",org.flowable.engine.delegate;version="[6.7,7)",org.flowab
+ le.engine.impl.bpmn.behavior;version="[6.7,7)",org.flowable.engine.impl
+ .bpmn.helper;version="[6.7,7)",org.flowable.engine.impl.cfg;version="[6
+ .7,7)",org.flowable.engine.impl.context;version="[6.7,7)",org.flowable.
+ engine.impl.delegate;version="[6.7,7)",org.flowable.engine.impl.persist
+ ence.entity;version="[6.7,7)",org.flowable.engine.impl.util;version="[6
+ .7,7)",org.flowable.engine.runtime;version="[6.7,7)",org.flowable.sprin
+ g;version="[6.7,7)",org.springframework.context,org.flowable.osgi;resol
+ ution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

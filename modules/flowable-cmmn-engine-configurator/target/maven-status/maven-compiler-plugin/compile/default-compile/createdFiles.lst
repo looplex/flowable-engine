@@ -1,0 +1,4 @@
+org/flowable/cmmn/engine/configurator/impl/cmmn/DefaultCaseInstanceService.class
+org/flowable/cmmn/engine/configurator/CmmnEngineConfigurator.class
+org/flowable/cmmn/engine/configurator/impl/process/DefaultProcessInstanceService.class
+org/flowable/cmmn/engine/configurator/impl/deployer/CmmnDeployer.class

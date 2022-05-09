@@ -1,0 +1,6 @@
+org/flowable/eventregistry/json/converter/ChannelJsonConverter.class
+org/flowable/eventregistry/json/converter/OutboundChannelModelValidator.class
+org/flowable/eventregistry/json/converter/ChannelValidator.class
+org/flowable/eventregistry/json/converter/EventJsonConverter.class
+org/flowable/eventregistry/json/converter/InboundChannelModelValidator.class
+org/flowable/eventregistry/json/converter/FlowableEventJsonException.class

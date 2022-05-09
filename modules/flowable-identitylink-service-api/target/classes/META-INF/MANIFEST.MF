@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605638059
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Flowable - Identity Link Service API
+Bundle-SymbolicName: org.flowable.identitylink.api
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.flowable.identitylink.api;version="6.7.2",org.flowab
+ le.identitylink.api.history;uses:="org.flowable.identitylink.api";versi
+ on="6.7.2"
+Implementation-Title: Flowable - Identity Link Service API
+Implementation-URL: http://www.flowable.org/modules/flowable-identitylin
+ k-service-api
+Implementation-Vendor: Flowable
+Implementation-Vendor-Id: org.flowable
+Implementation-Version: 6.7.2
+Import-Package: org.flowable.identitylink.api;version="[6.7,6.8)",org.fl
+ owable.osgi;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

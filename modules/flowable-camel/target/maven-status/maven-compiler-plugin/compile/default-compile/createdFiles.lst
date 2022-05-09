@@ -1,0 +1,14 @@
+org/flowable/camel/ExchangeUtils.class
+org/flowable/camel/FlowableConsumer.class
+org/flowable/camel/FlowableComponent.class
+org/flowable/camel/CamelBehavior$1.class
+org/flowable/camel/SpringCamelBehavior.class
+org/flowable/camel/impl/CamelBehaviorDefaultImpl.class
+org/flowable/camel/FlowableProducer.class
+org/flowable/camel/impl/CamelBehaviorBodyAsMapImpl.class
+org/flowable/camel/impl/CamelBehaviorCamelBodyImpl.class
+org/flowable/camel/ContextProvider.class
+org/flowable/camel/FlowableEndpoint.class
+org/flowable/camel/CamelBehavior.class
+org/flowable/camel/CamelBehavior$TargetType.class
+org/flowable/camel/SimpleContextProvider.class

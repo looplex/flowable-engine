@@ -1,0 +1,5 @@
+org/flowable/app/spring/test/junit4/SpringAppEngineJunit4Test.class
+org/flowable/app/spring/test/autodeployment/SpringAutoDeployTest$SpringAppAutoDeployTestConfiguration.class
+org/flowable/app/spring/test/autodeployment/AbstractAutoDeploymentStrategyTest.class
+org/flowable/app/spring/test/autodeployment/SpringAutoDeployTest.class
+org/flowable/app/spring/test/autodeployment/DefaultAutoDeploymentStrategyTest.class

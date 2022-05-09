@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605614131
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Flowable - Event Registry API
+Bundle-SymbolicName: org.flowable.eventregistry.api
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.flowable.eventregistry.api;uses:="org.flowable.commo
+ n.engine.api.query,org.flowable.eventregistry.api.model,org.flowable.ev
+ entregistry.api.runtime,org.flowable.eventregistry.model";version="6.7.
+ 2",org.flowable.eventregistry.api.management;version="6.7.2",org.flowab
+ le.eventregistry.api.model;uses:="org.flowable.eventregistry.api,org.fl
+ owable.eventregistry.model";version="6.7.2",org.flowable.eventregistry.
+ api.runtime;uses:="org.flowable.eventregistry.model";version="6.7.2"
+Implementation-Title: Flowable - Event Registry API
+Implementation-URL: http://www.flowable.org/modules/flowable-event-regis
+ try-api
+Implementation-Vendor: Flowable
+Implementation-Vendor-Id: org.flowable
+Implementation-Version: 6.7.2
+Import-Package: org.flowable.common.engine.api.query;version="[6.7,6.8)"
+ ,org.flowable.eventregistry.api;version="[6.7,6.8)",org.flowable.eventr
+ egistry.api.model;version="[6.7,6.8)",org.flowable.eventregistry.api.ru
+ ntime;version="[6.7,6.8)",org.flowable.eventregistry.model;version="[6.
+ 7,6.8)",org.flowable.osgi;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

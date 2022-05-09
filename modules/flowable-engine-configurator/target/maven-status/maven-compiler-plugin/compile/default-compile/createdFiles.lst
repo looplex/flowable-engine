@@ -1,0 +1,2 @@
+org/flowable/engine/configurator/ProcessEngineConfigurator.class
+org/flowable/engine/configurator/impl/deployer/BpmnDeployer.class

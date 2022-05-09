@@ -1,0 +1,16 @@
+org/flowable/external/job/rest/service/api/ExternalJobRestUrls.class
+org/flowable/external/job/rest/service/api/query/ExternalWorkerJobQueryRequest.class
+org/flowable/external/job/rest/service/api/acquire/ExternalWorkerJobErrorRequest.class
+org/flowable/external/job/rest/service/api/ExternalWorkerJobBaseResource.class
+org/flowable/external/job/rest/service/api/acquire/BaseExternalWorkCompletionRequest.class
+org/flowable/external/job/rest/service/api/acquire/ExternalWorkerJobTerminateRequest.class
+org/flowable/external/job/rest/service/api/acquire/ExternalWorkerJobCompleteRequest.class
+org/flowable/external/job/rest/service/api/query/ExternalWorkerJobResource.class
+org/flowable/external/job/rest/service/api/query/ExternalWorkerJobResponse.class
+org/flowable/external/job/rest/service/api/acquire/AcquireExternalWorkerJobRequest.class
+org/flowable/external/job/rest/service/api/acquire/ExternalWorkerAcquireJobResource.class
+org/flowable/external/job/rest/service/api/query/ExternalWorkerJobCollectionResource.class
+org/flowable/external/job/rest/service/api/acquire/AcquiredExternalWorkerJobResponse.class
+org/flowable/external/job/rest/service/api/acquire/ExternalWorkerJobFailureRequest.class
+org/flowable/external/job/rest/service/api/ExternalWorkerJobRestApiInterceptor.class
+org/flowable/external/job/rest/service/api/ExternalJobRestResponseFactory.class

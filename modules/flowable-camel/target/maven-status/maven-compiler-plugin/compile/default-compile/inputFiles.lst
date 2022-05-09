@@ -1,0 +1,12 @@
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel/src/main/java/org/flowable/camel/SpringCamelBehavior.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel/src/main/java/org/flowable/camel/ContextProvider.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel/src/main/java/org/flowable/camel/FlowableComponent.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel/src/main/java/org/flowable/camel/FlowableConsumer.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel/src/main/java/org/flowable/camel/impl/CamelBehaviorCamelBodyImpl.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel/src/main/java/org/flowable/camel/FlowableEndpoint.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel/src/main/java/org/flowable/camel/FlowableProducer.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel/src/main/java/org/flowable/camel/impl/CamelBehaviorBodyAsMapImpl.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel/src/main/java/org/flowable/camel/impl/CamelBehaviorDefaultImpl.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel/src/main/java/org/flowable/camel/CamelBehavior.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel/src/main/java/org/flowable/camel/ExchangeUtils.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-camel/src/main/java/org/flowable/camel/SimpleContextProvider.java

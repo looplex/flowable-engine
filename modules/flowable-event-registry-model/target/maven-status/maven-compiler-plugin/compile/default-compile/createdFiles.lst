@@ -1,0 +1,16 @@
+org/flowable/eventregistry/model/InboundChannelModel.class
+org/flowable/eventregistry/model/ChannelEventTenantIdDetection.class
+org/flowable/eventregistry/model/KafkaInboundChannelModel.class
+org/flowable/eventregistry/model/DelegateExpressionInboundChannelModel.class
+org/flowable/eventregistry/model/EventPayload.class
+org/flowable/eventregistry/model/OutboundChannelModel.class
+org/flowable/eventregistry/model/KafkaOutboundChannelModel.class
+org/flowable/eventregistry/model/JmsInboundChannelModel.class
+org/flowable/eventregistry/model/DelegateExpressionOutboundChannelModel.class
+org/flowable/eventregistry/model/ChannelModel.class
+org/flowable/eventregistry/model/RabbitInboundChannelModel.class
+org/flowable/eventregistry/model/EventModel.class
+org/flowable/eventregistry/model/RabbitOutboundChannelModel.class
+org/flowable/eventregistry/model/JmsOutboundChannelModel.class
+org/flowable/eventregistry/model/ChannelEventKeyDetection.class
+org/flowable/eventregistry/model/KafkaInboundChannelModel$CustomProperty.class

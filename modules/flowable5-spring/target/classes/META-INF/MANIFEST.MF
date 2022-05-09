@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605894835
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Flowable 5 - Spring
+Bundle-SymbolicName: org.activiti.spring
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.activiti.spring;uses:="javax.persistence,javax.sql,o
+ rg.activiti.engine,org.activiti.engine.impl.cfg,org.activiti.engine.imp
+ l.el,org.activiti.engine.impl.interceptor,org.activiti.spring.autodeplo
+ yment,org.flowable.common.engine.impl.calendar,org.flowable.common.engi
+ ne.impl.javax.el,org.flowable.common.engine.impl.runtime,org.flowable.v
+ ariable.api.delegate,org.springframework.beans,org.springframework.bean
+ s.factory,org.springframework.context,org.springframework.core,org.spri
+ ngframework.core.io,org.springframework.transaction,org.springframework
+ .transaction.support";version="6.7.2",org.activiti.spring.autodeploymen
+ t;uses:="org.activiti.engine,org.springframework.core.io";version="6.7.
+ 2"
+Implementation-Title: Flowable 5 - Spring
+Implementation-URL: http://www.flowable.org/modules/flowable5-spring
+Implementation-Vendor: Flowable
+Implementation-Vendor-Id: org.flowable
+Implementation-Version: 6.7.2
+Import-Package: org.flowable.common.engine.impl.calendar;version="[6.7,6
+ .8)",org.flowable.common.engine.impl.cfg;version="[6.7,6.8)",org.flowab
+ le.common.engine.impl.javax.el;version="[6.7,6.8)",org.flowable.common.
+ engine.impl.runtime;version="[6.7,6.8)",org.flowable.common.engine.impl
+ .util;version="[6.7,6.8)",org.flowable.variable.api.delegate;version="[
+ 6.7,6.8)",javax.persistence;version="[2.2,3)",javax.sql,org.activiti.en
+ gine,org.activiti.engine.impl.cfg,org.activiti.engine.impl.el,org.activ
+ iti.engine.impl.interceptor,org.activiti.engine.impl.variable,org.activ
+ iti.engine.repository,org.activiti.spring.autodeployment,org.apache.com
+ mons.lang3;version="[3.12,4)",org.slf4j;version="[1.7,2)",org.springfra
+ mework.beans,org.springframework.beans.factory,org.springframework.cont
+ ext,org.springframework.context.support,org.springframework.core,org.sp
+ ringframework.core.io,org.springframework.jdbc.datasource,org.springfra
+ mework.orm.jpa,org.springframework.transaction,org.springframework.tran
+ saction.support,org.flowable.osgi;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

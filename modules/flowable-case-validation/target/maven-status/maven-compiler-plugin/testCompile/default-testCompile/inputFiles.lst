@@ -1,0 +1,4 @@
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-case-validation/src/test/java/org/flowable/cmmn/validation/validator/impl/AbstractValidatorTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-case-validation/src/test/java/org/flowable/cmmn/validation/validator/impl/PlanModelValidatorTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-case-validation/src/test/java/org/flowable/cmmn/validation/validator/impl/DecisionTaskValidatorTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-case-validation/src/test/java/org/flowable/cmmn/validation/validator/impl/HumanTaskValidatorTest.java

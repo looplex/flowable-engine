@@ -1,0 +1,4 @@
+org/flowable/cdi/spi/CmmnEngineLookup.class
+org/flowable/cdi/impl/FlowableCmmnExtension$1.class
+org/flowable/cdi/impl/FlowableCmmnExtension.class
+org/flowable/cdi/impl/util/FlowableCmmnServices.class

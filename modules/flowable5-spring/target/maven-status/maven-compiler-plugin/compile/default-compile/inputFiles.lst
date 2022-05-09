@@ -1,0 +1,15 @@
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-spring/src/main/java/org/activiti/spring/SpringAdvancedBusinessCalendarManagerFactory.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-spring/src/main/java/org/activiti/spring/SpringTransactionContext.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-spring/src/main/java/org/activiti/spring/autodeployment/AutoDeploymentStrategy.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-spring/src/main/java/org/activiti/spring/ProcessEngineFactoryBean.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-spring/src/main/java/org/activiti/spring/SpringConfigurationHelper.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-spring/src/main/java/org/activiti/spring/SpringTransactionInterceptor.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-spring/src/main/java/org/activiti/spring/ApplicationContextElResolver.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-spring/src/main/java/org/activiti/spring/SpringEntityManagerSessionFactory.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-spring/src/main/java/org/activiti/spring/SpringExpressionManager.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-spring/src/main/java/org/activiti/spring/autodeployment/SingleResourceAutoDeploymentStrategy.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-spring/src/main/java/org/activiti/spring/autodeployment/AbstractAutoDeploymentStrategy.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-spring/src/main/java/org/activiti/spring/autodeployment/DefaultAutoDeploymentStrategy.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-spring/src/main/java/org/activiti/spring/SpringProcessEngineConfiguration.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-spring/src/main/java/org/activiti/spring/SpringTransactionContextFactory.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable5-spring/src/main/java/org/activiti/spring/autodeployment/ResourceParentFolderAutoDeploymentStrategy.java

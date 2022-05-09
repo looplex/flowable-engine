@@ -1,0 +1,3 @@
+org/flowable/dmn/editor/converter/DmnJsonConverterTest.class
+org/flowable/dmn/editor/converter/StandaloneTestDmnConverterContext.class
+org/flowable/dmn/editor/converter/DmnJsonConverterUtilTest.class

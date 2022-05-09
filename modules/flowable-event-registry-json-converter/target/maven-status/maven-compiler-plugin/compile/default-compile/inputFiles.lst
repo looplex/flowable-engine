@@ -1,0 +1,6 @@
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-json-converter/src/main/java/org/flowable/eventregistry/json/converter/OutboundChannelModelValidator.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-json-converter/src/main/java/org/flowable/eventregistry/json/converter/InboundChannelModelValidator.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-json-converter/src/main/java/org/flowable/eventregistry/json/converter/ChannelJsonConverter.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-json-converter/src/main/java/org/flowable/eventregistry/json/converter/ChannelValidator.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-json-converter/src/main/java/org/flowable/eventregistry/json/converter/FlowableEventJsonException.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-json-converter/src/main/java/org/flowable/eventregistry/json/converter/EventJsonConverter.java

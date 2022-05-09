@@ -1,0 +1,6 @@
+org/flowable/app/spring/autodeployment/DefaultAutoDeploymentStrategy.class
+org/flowable/app/spring/SpringAppEngineConfiguration.class
+org/flowable/app/spring/autodeployment/AbstractAppAutoDeploymentStrategy.class
+org/flowable/app/spring/SpringAppConfigurationHelper.class
+org/flowable/app/spring/impl/test/SpringFlowableAppTestCase.class
+org/flowable/app/spring/AppEngineFactoryBean.class

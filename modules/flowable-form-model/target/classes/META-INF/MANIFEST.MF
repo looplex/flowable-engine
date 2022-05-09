@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605666936
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Flowable - Form Model
+Bundle-SymbolicName: org.flowable.form.model
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.flowable.form.model;uses:="com.fasterxml.jackson.ann
+ otation,org.flowable.form.api";version="6.7.2"
+Implementation-Title: Flowable - Form Model
+Implementation-URL: http://www.flowable.org/modules/flowable-form-model
+Implementation-Vendor: Flowable
+Implementation-Vendor-Id: org.flowable
+Implementation-Version: 6.7.2
+Import-Package: org.flowable.form.api;version="[6.7,6.8)",com.fasterxml.
+ jackson.annotation;version="[2.13,3)",org.flowable.osgi;resolution:=opt
+ ional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

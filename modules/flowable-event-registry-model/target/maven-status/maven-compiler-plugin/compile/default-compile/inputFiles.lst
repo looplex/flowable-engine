@@ -1,0 +1,15 @@
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-model/src/main/java/org/flowable/eventregistry/model/RabbitOutboundChannelModel.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-model/src/main/java/org/flowable/eventregistry/model/JmsInboundChannelModel.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-model/src/main/java/org/flowable/eventregistry/model/KafkaOutboundChannelModel.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-model/src/main/java/org/flowable/eventregistry/model/OutboundChannelModel.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-model/src/main/java/org/flowable/eventregistry/model/EventPayload.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-model/src/main/java/org/flowable/eventregistry/model/KafkaInboundChannelModel.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-model/src/main/java/org/flowable/eventregistry/model/JmsOutboundChannelModel.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-model/src/main/java/org/flowable/eventregistry/model/ChannelEventKeyDetection.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-model/src/main/java/org/flowable/eventregistry/model/RabbitInboundChannelModel.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-model/src/main/java/org/flowable/eventregistry/model/InboundChannelModel.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-model/src/main/java/org/flowable/eventregistry/model/EventModel.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-model/src/main/java/org/flowable/eventregistry/model/DelegateExpressionInboundChannelModel.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-model/src/main/java/org/flowable/eventregistry/model/ChannelEventTenantIdDetection.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-model/src/main/java/org/flowable/eventregistry/model/ChannelModel.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry-model/src/main/java/org/flowable/eventregistry/model/DelegateExpressionOutboundChannelModel.java

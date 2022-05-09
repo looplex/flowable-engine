@@ -1,0 +1,14 @@
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry/src/test/java/org/flowable/eventregistry/test/DefaultEventRegistryTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry/src/test/java/org/flowable/eventregistry/test/UpdateChannelDefinitionTypeAndImplementationForAllChannelDefinitionsCmdTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry/src/test/java/org/flowable/eventregistry/test/DefaultEventRegistryDataChangeDetectorShutdownTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry/src/test/java/org/flowable/eventregistry/test/XpathBasedInboundEventKeyDetectorTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry/src/test/java/org/flowable/eventregistry/test/AbstractFlowableEventTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry/src/test/java/org/flowable/eventregistry/test/CustomEventProcessingPipelineTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry/src/test/java/org/flowable/eventregistry/test/DefaultEventRegistryDataChangeDetectorTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry/src/test/java/org/flowable/eventregistry/test/DefaultCorrelationKeyGeneratorTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry/src/test/java/org/flowable/eventregistry/test/XpathBasedInboundEventTenantDetectorTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry/src/test/java/org/flowable/eventregistry/test/api/repository/EventDefinitionQueryTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry/src/test/java/org/flowable/eventregistry/test/api/repository/ChannelDefinitionQueryTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry/src/test/java/org/flowable/eventregistry/test/deployment/DeploymentQueryTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry/src/test/java/org/flowable/eventregistry/test/deployment/DeploymentTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-event-registry/src/test/java/org/flowable/eventregistry/test/db/EntitiesTest.java

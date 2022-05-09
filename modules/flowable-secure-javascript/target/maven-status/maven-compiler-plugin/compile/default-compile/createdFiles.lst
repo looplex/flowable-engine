@@ -1,0 +1,11 @@
+org/flowable/scripting/secure/listener/SecureJavascriptTaskListener.class
+org/flowable/scripting/secure/impl/SecureScriptContextFactory.class
+org/flowable/scripting/secure/listener/SecureJavascriptExecutionListener.class
+org/flowable/scripting/secure/SecureJavascriptConfigurator.class
+org/flowable/scripting/secure/impl/SecureScriptClassShutter.class
+org/flowable/scripting/secure/behavior/SecureJavascriptTaskActivityBehavior.class
+org/flowable/scripting/secure/behavior/SecureJavascriptTaskParseHandler.class
+org/flowable/scripting/secure/impl/SecureScriptContext.class
+org/flowable/scripting/secure/impl/SecureJavascriptUtil.class
+org/flowable/scripting/secure/impl/SecureScriptThreadMxBeanWrapper.class
+org/flowable/scripting/secure/impl/SecureScriptScope.class

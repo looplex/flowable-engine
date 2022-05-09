@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605845816
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: flowable-idm-spring-configurator
+Bundle-SymbolicName: org.flowable.idm.spring.configurator
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.flowable.idm.spring.configurator;uses:="org.flowable
+ .common.engine.impl,org.flowable.idm.engine.configurator,org.flowable.i
+ dm.spring";version="6.7.2"
+Implementation-Title: flowable-idm-spring-configurator
+Implementation-URL: http://www.flowable.org/modules/flowable-idm-spring-
+ configurator
+Implementation-Vendor: Flowable
+Implementation-Vendor-Id: org.flowable
+Implementation-Version: 6.7.2
+Import-Package: org.flowable.common.engine.impl;version="[6.7,6.8)",org.
+ flowable.common.spring;version="[6.7,6.8)",org.flowable.idm.engine;vers
+ ion="[6.7,6.8)",org.flowable.idm.engine.configurator;version="[6.7,6.8)
+ ",org.flowable.idm.spring;version="[6.7,6.8)",org.springframework.trans
+ action,org.flowable.osgi;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

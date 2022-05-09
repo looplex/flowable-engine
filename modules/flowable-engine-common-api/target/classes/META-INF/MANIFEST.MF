@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605611244
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Flowable - Engine Common API
+Bundle-SymbolicName: org.flowable.common.engine.api
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.flowable.common.engine.api;version="6.7.2",org.flowa
+ ble.common.engine.api.async;version="6.7.2",org.flowable.common.engine.
+ api.constant;version="6.7.2",org.flowable.common.engine.api.delegate;us
+ es:="org.flowable.common.engine.api.variable";version="6.7.2",org.flowa
+ ble.common.engine.api.delegate.event;version="6.7.2",org.flowable.commo
+ n.engine.api.engine;uses:="org.flowable.common.engine.api";version="6.7
+ .2",org.flowable.common.engine.api.history;version="6.7.2",org.flowable
+ .common.engine.api.identity;version="6.7.2",org.flowable.common.engine.
+ api.io;version="6.7.2",org.flowable.common.engine.api.management;versio
+ n="6.7.2",org.flowable.common.engine.api.query;version="6.7.2",org.flow
+ able.common.engine.api.repository;version="6.7.2",org.flowable.common.e
+ ngine.api.scope;version="6.7.2",org.flowable.common.engine.api.tenant;v
+ ersion="6.7.2",org.flowable.common.engine.api.variable;version="6.7.2",
+ org.flowable.common.engine.api;version="6.7.2",org.flowable.common.engi
+ ne.api.delegate.event;version="6.7.2",org.flowable.common.engine.api.hi
+ story;version="6.7.2",org.flowable.common.engine.api.io;version="6.7.2"
+ ,org.flowable.common.engine.api.management;version="6.7.2",org.flowable
+ .common.engine.api.query;version="6.7.2"
+Implementation-Title: Flowable - Engine Common API
+Implementation-URL: http://www.flowable.org/modules/flowable-engine-comm
+ on-api
+Implementation-Vendor: Flowable
+Implementation-Vendor-Id: org.flowable
+Implementation-Version: 6.7.2
+Import-Package: org.flowable.common.engine.api;version="[6.7,6.8)",org.f
+ lowable.common.engine.api.variable;version="[6.7,6.8)",org.apache.commo
+ ns.lang3;version="[3.12,4)",org.flowable.osgi;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

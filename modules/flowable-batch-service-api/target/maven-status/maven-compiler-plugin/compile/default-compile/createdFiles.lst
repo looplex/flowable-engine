@@ -1,0 +1,7 @@
+org/flowable/batch/api/BatchPartQuery.class
+org/flowable/batch/api/BatchPart.class
+org/flowable/batch/api/BatchService.class
+org/flowable/batch/api/BatchQuery.class
+org/flowable/batch/api/Batch.class
+org/flowable/batch/api/BatchPartBuilder.class
+org/flowable/batch/api/BatchBuilder.class

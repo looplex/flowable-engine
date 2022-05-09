@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605865948
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Flowable - App Engine - Spring
+Bundle-SymbolicName: org.flowable.app.spring
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.flowable.app.spring;uses:="javax.sql,org.flowable.ap
+ p.engine,org.flowable.common.engine.impl,org.flowable.common.engine.imp
+ l.interceptor,org.flowable.common.spring,org.springframework.beans,org.
+ springframework.beans.factory,org.springframework.context,org.springfra
+ mework.core.io,org.springframework.transaction";version="6.7.2",org.flo
+ wable.app.spring.autodeployment;uses:="org.flowable.app.api.repository,
+ org.flowable.app.engine,org.flowable.common.engine.impl.lock,org.flowab
+ le.common.spring,org.springframework.core.io";version="6.7.2",org.flowa
+ ble.app.spring.impl.test;uses:="junit.framework,org.flowable.app.engine
+ ,org.springframework.beans.factory.annotation,org.springframework.conte
+ xt,org.springframework.test.context,org.springframework.test.context.su
+ pport";version="6.7.2"
+Implementation-Title: Flowable - App Engine - Spring
+Implementation-URL: http://www.flowable.org/modules/flowable-app-engine-
+ spring
+Implementation-Vendor: Flowable
+Implementation-Vendor-Id: org.flowable
+Implementation-Version: 6.7.2
+Import-Package: org.flowable.app.api;version="[6.7,6.8)",org.flowable.ap
+ p.api.repository;version="[6.7,6.8)",org.flowable.app.engine;version="[
+ 6.7,6.8)",org.flowable.app.spring.autodeployment;version="[6.7,6.8)",or
+ g.flowable.common.engine.api;version="[6.7,6.8)",org.flowable.common.en
+ gine.impl;version="[6.7,6.8)",org.flowable.common.engine.impl.cfg;versi
+ on="[6.7,6.8)",org.flowable.common.engine.impl.interceptor;version="[6.
+ 7,6.8)",org.flowable.common.engine.impl.lock;version="[6.7,6.8)",org.fl
+ owable.common.spring;version="[6.7,6.8)",org.flowable.eventregistry.spr
+ ing.configurator;version="[6.7,6.8)",org.springframework.test.context;r
+ esolution:=optional,org.springframework.test.context.support;resolution
+ :=optional,javax.sql,junit.framework,org.slf4j;version="[1.7,2)",org.sp
+ ringframework.beans,org.springframework.beans.factory,org.springframewo
+ rk.beans.factory.annotation,org.springframework.context,org.springframe
+ work.context.support,org.springframework.core.io,org.springframework.jd
+ bc.datasource,org.springframework.transaction,org.flowable.osgi;resolut
+ ion:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

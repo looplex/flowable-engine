@@ -1,0 +1,12 @@
+org/flowable/ui/application/FlowableUiApplicationWithEnabledJmsTest.class
+org/flowable/ui/application/FlowableUiApplicationSecurityTest$TestLink.class
+org/flowable/ui/application/FlowableUiApplicationWithEnabledRabbitTest.class
+org/flowable/ui/application/FlowableUiApplicationSecurityTest$1.class
+org/flowable/ui/application/FlowableUiApplicationSecurityTest.class
+org/flowable/ui/application/FlowableUiApplicationActuatorTest.class
+org/flowable/ui/application/FlowableUiApplicationWithEnabledKafkaTest.class
+org/flowable/ui/application/FlowableUiIdmApplicationDefaultAuthenticationTest.class
+org/flowable/ui/application/FlowableUiApplicationTest.class
+org/flowable/ui/application/FlowableUiApplicationWithEnabledJmsKafkaAndRabbitTest.class
+org/flowable/ui/application/FlowableUiIdmApplicationDefaultAuthenticationTest$TestBootstrapConfiguration.class
+org/flowable/ui/application/FlowableUiIdmApplicationLdapAuthenticationTest.class

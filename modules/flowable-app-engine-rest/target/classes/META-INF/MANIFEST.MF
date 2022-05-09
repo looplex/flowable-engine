@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605867676
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Flowable - App Engine REST
+Bundle-SymbolicName: org.flowable.app.rest
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.flowable.app.rest;uses:="javax.servlet.http,org.flow
+ able.app.api.repository,org.flowable.app.rest.service.api.repository,or
+ g.flowable.common.rest.resolver";version="6.7.2",org.flowable.app.rest.
+ service.api.management;uses:="io.swagger.annotations,org.flowable.app.r
+ est,org.flowable.common.rest.api,org.springframework.beans.factory.anno
+ tation,org.springframework.web.bind.annotation";version="6.7.2",org.flo
+ wable.app.rest.service.api.repository;uses:="com.fasterxml.jackson.data
+ bind.annotation,io.swagger.annotations,javax.servlet.http,org.flowable.
+ app.api,org.flowable.app.api.repository,org.flowable.app.rest,org.flowa
+ ble.common.rest.api,org.flowable.common.rest.resolver,org.flowable.comm
+ on.rest.util,org.springframework.beans.factory.annotation,org.springfra
+ mework.web.bind.annotation";version="6.7.2"
+Implementation-Title: Flowable - App Engine REST
+Implementation-URL: http://www.flowable.org/modules/flowable-app-engine-
+ rest
+Implementation-Vendor: Flowable
+Implementation-Vendor-Id: org.flowable
+Implementation-Version: 6.7.2
+Import-Package: org.flowable.app.api;version="[6.7,6.8)",org.flowable.ap
+ p.api.repository;version="[6.7,6.8)",org.flowable.app.engine;version="[
+ 6.7,6.8)",org.flowable.app.engine.impl.repository;version="[6.7,6.8)",o
+ rg.flowable.app.rest;version="[6.7,6.8)",org.flowable.app.rest.service.
+ api.repository;version="[6.7,6.8)",org.flowable.common.engine.api;versi
+ on="[6.7,6.8)",org.flowable.common.engine.api.query;version="[6.7,6.8)"
+ ,org.flowable.common.engine.impl;version="[6.7,6.8)",org.flowable.commo
+ n.rest.api;version="[6.7,6.8)",org.flowable.common.rest.resolver;versio
+ n="[6.7,6.8)",org.flowable.common.rest.util;version="[6.7,6.8)",com.fas
+ terxml.jackson.databind.annotation;version="[2.13,3)",io.swagger.annota
+ tions;version="[1.6,2)",javax.servlet.http;version="[3.1,4)",org.apache
+ .commons.io;version="[1.4,2)",org.apache.commons.lang3;version="[3.12,4
+ )",org.apache.http.entity,org.springframework.beans.factory.annotation,
+ org.springframework.http,org.springframework.web.bind.annotation,org.sp
+ ringframework.web.multipart,org.springframework.web.servlet.support,org
+ .springframework.web.util,org.flowable.osgi;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

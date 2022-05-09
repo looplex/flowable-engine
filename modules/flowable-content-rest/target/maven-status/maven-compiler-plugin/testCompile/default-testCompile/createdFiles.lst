@@ -1,0 +1,16 @@
+org/flowable/content/rest/conf/engine/FlowableContentEngineConfiguration.class
+org/flowable/content/rest/util/TestServerUtil.class
+org/flowable/content/rest/service/api/content/ContentItemCollectionResourceTest.class
+org/flowable/content/rest/util/TestServerUtil$TestServer.class
+org/flowable/content/rest/conf/common/SecurityConfiguration.class
+org/flowable/content/rest/conf/ApplicationConfiguration.class
+org/flowable/content/rest/service/api/BaseSpringContentRestTestCase.class
+org/flowable/content/rest/conf/common/RestConfiguration.class
+org/flowable/content/rest/service/api/content/ContentItemResourceTest.class
+org/flowable/content/rest/service/api/content/ContentItemQueryResourceTest.class
+org/flowable/content/rest/conf/common/RestExceptionHandlerAdvice.class
+org/flowable/content/rest/DispatcherServletConfiguration.class
+org/flowable/content/rest/service/api/HttpMultipartHelper.class
+org/flowable/content/rest/service/api/BaseSpringContentRestTestCase$1.class
+org/flowable/content/rest/conf/common/JacksonConfiguration.class
+org/flowable/content/rest/WebConfigurer.class

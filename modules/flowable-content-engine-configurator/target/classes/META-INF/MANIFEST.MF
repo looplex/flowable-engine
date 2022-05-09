@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605862022
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Flowable - Content Engine Configurator
+Bundle-SymbolicName: org.flowable.content.engine.configurator
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.flowable.content.engine.configurator;uses:="org.flow
+ able.common.engine.impl,org.flowable.common.engine.impl.persistence.ent
+ ity,org.flowable.content.engine";version="6.7.2"
+Implementation-Title: Flowable - Content Engine Configurator
+Implementation-URL: http://www.flowable.org/modules/flowable-content-eng
+ ine-configurator
+Implementation-Vendor: Flowable
+Implementation-Vendor-Id: org.flowable
+Implementation-Version: 6.7.2
+Import-Package: org.flowable.common.engine.api;version="[6.7,6.8)",org.f
+ lowable.common.engine.impl;version="[6.7,6.8)",org.flowable.common.engi
+ ne.impl.persistence.entity;version="[6.7,6.8)",org.flowable.content.eng
+ ine;version="[6.7,6.8)",org.flowable.content.engine.impl.cfg;version="[
+ 6.7,6.8)",org.flowable.content.engine.impl.db;version="[6.7,6.8)",org.f
+ lowable.osgi;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

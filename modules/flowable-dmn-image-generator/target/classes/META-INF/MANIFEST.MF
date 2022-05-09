@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605780188
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Flowable - DMN Image Generator
+Bundle-SymbolicName: org.flowable.dmn.image
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.flowable.dmn.image;uses:="org.flowable.dmn.model";ve
+ rsion="6.7.2",org.flowable.dmn.image.exception;version="6.7.2",org.flow
+ able.dmn.image.impl;uses:="org.flowable.dmn.image,org.flowable.dmn.mode
+ l,org.slf4j";version="6.7.2",org.flowable.dmn.image.util;version="6.7.2
+ "
+Implementation-Title: Flowable - DMN Image Generator
+Implementation-URL: http://www.flowable.org/modules/flowable-dmn-image-g
+ enerator
+Implementation-Vendor: Flowable
+Implementation-Vendor-Id: org.flowable
+Implementation-Version: 6.7.2
+Import-Package: org.flowable.dmn.image;version="[6.7,6.8)",org.flowable.
+ dmn.image.exception;version="[6.7,6.8)",org.flowable.dmn.image.util;ver
+ sion="[6.7,6.8)",org.flowable.dmn.model;version="[6.7,6.8)",javax.image
+ io;resolution:=optional,org.slf4j;version="[1.7,2)",org.flowable.osgi;r
+ esolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

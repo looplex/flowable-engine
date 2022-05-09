@@ -1,0 +1,17 @@
+org/flowable/camel/cdi/named/CdiCustomContextTest.class
+org/flowable/camel/cdi/std/CdiSimpleProcessTest$1.class
+org/flowable/camel/cdi/std/CdiCamelVariableBodyTest.class
+org/flowable/camel/cdi/std/CdiAsyncPingTest$1.class
+org/flowable/camel/cdi/named/CdiCustomNonDefaultNamedContextTest$1.class
+org/flowable/camel/cdi/named/CdiCustomNonDefaultNamedContextTest.class
+org/flowable/camel/cdi/named/NamedCamelCdiFlowableTestCase.class
+org/flowable/camel/cdi/std/CdiSimpleProcessTest.class
+org/flowable/camel/cdi/std/CdiCamelVariableBodyMapTest.class
+org/flowable/camel/cdi/named/CdiCustomContextTest$1.class
+org/flowable/camel/cdi/std/CdiAsyncPingTest.class
+org/flowable/camel/cdi/std/StdCamelCdiFlowableTestCase.class
+org/flowable/camel/cdi/BaseCamelCdiFlowableTestCase.class
+org/flowable/camel/cdi/CamelCdiTestProcessEngineLookup.class
+org/flowable/camel/cdi/std/CdiCamelVariableBodyMapTest$1.class
+org/flowable/camel/cdi/std/CdiCamelVariableBodyTest$1.class
+org/flowable/camel/cdi/named/CdiCamelContextFactory.class

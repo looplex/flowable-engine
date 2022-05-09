@@ -1,0 +1,15 @@
+org/flowable/job/api/ExternalWorkerJob.class
+org/flowable/job/api/AcquiredExternalWorkerJob.class
+org/flowable/job/api/SuspendedJobQuery.class
+org/flowable/job/api/Job.class
+org/flowable/job/api/JobInfo.class
+org/flowable/job/api/HistoryJobQuery.class
+org/flowable/job/api/JobNotFoundException.class
+org/flowable/job/api/ExternalWorkerJobFailureBuilder.class
+org/flowable/job/api/TimerJobQuery.class
+org/flowable/job/api/JobQuery.class
+org/flowable/job/api/ExternalWorkerJobQuery.class
+org/flowable/job/api/ExternalWorkerJobAcquireBuilder.class
+org/flowable/job/api/HistoryJob.class
+org/flowable/job/api/DeadLetterJobQuery.class
+org/flowable/job/api/BaseJobQuery.class

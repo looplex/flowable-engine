@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605667400
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: flowable-form-json-converter
+Bundle-SymbolicName: org.flowable.form.json.converter
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Implementation-Title: flowable-form-json-converter
+Implementation-URL: http://www.flowable.org/modules/flowable-form-json-c
+ onverter
+Implementation-Vendor: Flowable
+Implementation-Vendor-Id: org.flowable
+Implementation-Version: 6.7.2
+Import-Package: org.flowable.form.model;version="[6.7,6.8)",com.fasterxm
+ l.jackson.databind;version="[2.13,3)",org.flowable.osgi;resolution:=opt
+ ional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

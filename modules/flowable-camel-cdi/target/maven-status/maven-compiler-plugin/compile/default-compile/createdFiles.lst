@@ -1,0 +1,4 @@
+org/flowable/camel/cdi/impl/CdiCamelBehaviorDefaultImpl.class
+org/flowable/camel/cdi/CdiCamelBehavior.class
+org/flowable/camel/cdi/impl/CdiCamelBehaviorCamelBodyImpl.class
+org/flowable/camel/cdi/impl/CdiCamelBehaviorBodyAsMapImpl.class

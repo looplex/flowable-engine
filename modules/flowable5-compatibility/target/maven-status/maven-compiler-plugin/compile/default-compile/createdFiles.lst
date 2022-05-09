@@ -1,0 +1,13 @@
+org/flowable/compatibility/DefaultFlowable5CompatibilityHandler$2.class
+org/flowable/compatibility/wrapper/Flowable5TaskWrapper.class
+org/flowable/compatibility/wrapper/Flowable5DeploymentWrapper.class
+org/flowable/compatibility/DefaultFlowable5CompatibilityHandler$1.class
+org/flowable/compatibility/wrapper/Flowable5CommentWrapper.class
+org/flowable/compatibility/wrapper/Flowable5AttachmentWrapper.class
+org/flowable/compatibility/wrapper/Flowable5ProcessInstanceWrapper.class
+org/flowable/compatibility/DefaultFlowable5CompatibilityHandler$5.class
+org/flowable/compatibility/DefaultProcessEngineFactory.class
+org/flowable/compatibility/DefaultFlowable5CompatibilityHandler.class
+org/flowable/compatibility/wrapper/Flowable5TaskFormDataWrapper.class
+org/flowable/compatibility/DefaultFlowable5CompatibilityHandler$3.class
+org/flowable/compatibility/DefaultFlowable5CompatibilityHandler$4.class

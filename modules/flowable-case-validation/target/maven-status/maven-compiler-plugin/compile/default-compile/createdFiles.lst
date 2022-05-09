@@ -1,0 +1,16 @@
+org/flowable/cmmn/validation/validator/impl/CaseLevelValidator.class
+org/flowable/cmmn/validation/validator/impl/DecisionTaskValidator.class
+org/flowable/cmmn/validation/CaseValidator.class
+org/flowable/cmmn/validation/validator/impl/PlanModelValidator.class
+org/flowable/cmmn/validation/CaseValidationContext.class
+org/flowable/cmmn/validation/validator/Problems.class
+org/flowable/cmmn/validation/CaseValidatorImpl.class
+org/flowable/cmmn/validation/validator/ValidatorSetFactory.class
+org/flowable/cmmn/validation/validator/impl/HumanTaskValidator.class
+org/flowable/cmmn/validation/CaseValidatorFactory.class
+org/flowable/cmmn/validation/validator/ValidatorSet.class
+org/flowable/cmmn/validation/validator/ValidatorSetNames.class
+org/flowable/cmmn/validation/CaseValidationContextImpl.class
+org/flowable/cmmn/validation/validator/ValidationEntry.class
+org/flowable/cmmn/validation/validator/ValidationEntry$Level.class
+org/flowable/cmmn/validation/validator/Validator.class

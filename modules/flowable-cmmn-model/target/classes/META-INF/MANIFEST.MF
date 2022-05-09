@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605672091
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Flowable - CMMN Model
+Bundle-SymbolicName: org.flowable.cmmn.model
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.flowable.cmmn.model;uses:="com.fasterxml.jackson.ann
+ otation";version="6.7.2"
+Implementation-Title: Flowable - CMMN Model
+Implementation-URL: http://www.flowable.org/modules/flowable-cmmn-model
+Implementation-Vendor: Flowable
+Implementation-Vendor-Id: org.flowable
+Implementation-Version: 6.7.2
+Import-Package: org.flowable.common.engine.api;version="[6.7,6.8)",com.f
+ asterxml.jackson.annotation;version="[2.13,3)",org.apache.commons.lang3
+ ;version="[3.12,4)",org.flowable.osgi;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

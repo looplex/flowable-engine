@@ -1,0 +1,8 @@
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-spring-common/src/main/java/org/flowable/common/spring/SpringEngineConfiguration.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-spring-common/src/main/java/org/flowable/common/spring/SpringTransactionContextFactory.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-spring-common/src/main/java/org/flowable/common/spring/SpringTransactionContext.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-spring-common/src/main/java/org/flowable/common/spring/async/SpringAsyncTaskExecutor.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-spring-common/src/main/java/org/flowable/common/spring/SpringTransactionInterceptor.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-spring-common/src/main/java/org/flowable/common/spring/CommonAutoDeploymentStrategy.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-spring-common/src/main/java/org/flowable/common/spring/CommonAutoDeploymentProperties.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-spring-common/src/main/java/org/flowable/common/spring/AutoDeploymentStrategy.java

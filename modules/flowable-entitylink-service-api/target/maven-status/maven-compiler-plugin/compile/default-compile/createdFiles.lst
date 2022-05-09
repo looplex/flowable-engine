@@ -1,0 +1,7 @@
+org/flowable/entitylink/api/HierarchyType.class
+org/flowable/entitylink/api/EntityLinkType.class
+org/flowable/entitylink/api/EntityLinkService.class
+org/flowable/entitylink/api/EntityLink.class
+org/flowable/entitylink/api/EntityLinkInfo.class
+org/flowable/entitylink/api/history/HistoricEntityLinkService.class
+org/flowable/entitylink/api/history/HistoricEntityLink.class

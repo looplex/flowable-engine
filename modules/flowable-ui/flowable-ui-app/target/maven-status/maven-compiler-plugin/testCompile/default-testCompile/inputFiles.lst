@@ -1,0 +1,9 @@
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-ui/flowable-ui-app/src/test/java/org/flowable/ui/application/FlowableUiApplicationTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-ui/flowable-ui-app/src/test/java/org/flowable/ui/application/FlowableUiApplicationSecurityTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-ui/flowable-ui-app/src/test/java/org/flowable/ui/application/FlowableUiIdmApplicationDefaultAuthenticationTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-ui/flowable-ui-app/src/test/java/org/flowable/ui/application/FlowableUiApplicationWithEnabledRabbitTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-ui/flowable-ui-app/src/test/java/org/flowable/ui/application/FlowableUiIdmApplicationLdapAuthenticationTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-ui/flowable-ui-app/src/test/java/org/flowable/ui/application/FlowableUiApplicationActuatorTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-ui/flowable-ui-app/src/test/java/org/flowable/ui/application/FlowableUiApplicationWithEnabledJmsTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-ui/flowable-ui-app/src/test/java/org/flowable/ui/application/FlowableUiApplicationWithEnabledJmsKafkaAndRabbitTest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-ui/flowable-ui-app/src/test/java/org/flowable/ui/application/FlowableUiApplicationWithEnabledKafkaTest.java

@@ -1,0 +1,55 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605857129
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Flowable - IDM REST
+Bundle-SymbolicName: org.flowable.idm.rest.service
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.flowable.idm.rest.service.api;uses:="org.flowable.co
+ mmon.rest.util,org.flowable.idm.api,org.flowable.idm.rest.service.api.g
+ roup,org.flowable.idm.rest.service.api.privilege,org.flowable.idm.rest.
+ service.api.user";version="6.7.2",org.flowable.idm.rest.service.api.gro
+ up;uses:="io.swagger.annotations,javax.servlet.http,org.flowable.common
+ .engine.api.query,org.flowable.common.rest.api,org.flowable.idm.api,org
+ .flowable.idm.rest.service.api,org.springframework.beans.factory.annota
+ tion,org.springframework.web.bind.annotation";version="6.7.2",org.flowa
+ ble.idm.rest.service.api.management;uses:="io.swagger.annotations,org.f
+ lowable.common.rest.api,org.flowable.idm.rest.service.api,org.springfra
+ mework.beans.factory.annotation,org.springframework.web.bind.annotation
+ ";version="6.7.2",org.flowable.idm.rest.service.api.privilege;uses:="io
+ .swagger.annotations,javax.servlet.http,org.flowable.common.rest.api,or
+ g.flowable.idm.api,org.flowable.idm.rest.service.api,org.flowable.idm.r
+ est.service.api.group,org.flowable.idm.rest.service.api.user,org.spring
+ framework.beans.factory.annotation,org.springframework.web.bind.annotat
+ ion";version="6.7.2",org.flowable.idm.rest.service.api.user;uses:="com.
+ fasterxml.jackson.annotation,io.swagger.annotations,javax.servlet.http,
+ org.flowable.common.engine.api.query,org.flowable.common.rest.api,org.f
+ lowable.idm.api,org.flowable.idm.rest.service.api,org.springframework.b
+ eans.factory.annotation,org.springframework.web.bind.annotation";versio
+ n="6.7.2"
+Implementation-Title: Flowable - IDM REST
+Implementation-URL: http://www.flowable.org/modules/flowable-idm-rest
+Implementation-Vendor: Flowable
+Implementation-Vendor-Id: org.flowable
+Implementation-Version: 6.7.2
+Import-Package: org.flowable.common.engine.api;version="[6.7,6.8)",org.f
+ lowable.common.engine.api.query;version="[6.7,6.8)",org.flowable.common
+ .engine.impl;version="[6.7,6.8)",org.flowable.common.rest.api;version="
+ [6.7,6.8)",org.flowable.common.rest.exception;version="[6.7,6.8)",org.f
+ lowable.common.rest.util;version="[6.7,6.8)",org.flowable.idm.api;versi
+ on="[6.7,6.8)",org.flowable.idm.engine;version="[6.7,6.8)",org.flowable
+ .idm.rest.service.api;version="[6.7,6.8)",org.flowable.idm.rest.service
+ .api.group;version="[6.7,6.8)",org.flowable.idm.rest.service.api.privil
+ ege;version="[6.7,6.8)",org.flowable.idm.rest.service.api.user;version=
+ "[6.7,6.8)",com.fasterxml.jackson.annotation;version="[2.13,3)",io.swag
+ ger.annotations;version="[1.6,2)",javax.servlet.http;version="[3.1,4)",
+ org.springframework.beans.factory.annotation,org.springframework.http,o
+ rg.springframework.web.bind.annotation,org.flowable.osgi;resolution:=op
+ tional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

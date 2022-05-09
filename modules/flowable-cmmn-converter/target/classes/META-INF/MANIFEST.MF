@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605787468
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Flowable - CMMN Converter
+Bundle-SymbolicName: org.flowable.cmmn.converter
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.flowable.cmmn.converter;uses:="javax.xml.namespace,j
+ avax.xml.stream,javax.xml.validation,org.flowable.cmmn.model,org.flowab
+ le.common.engine.api.io,org.slf4j,org.xml.sax";version="6.7.2",org.flow
+ able.cmmn.converter.exception;uses:="org.flowable.common.engine.api";ve
+ rsion="6.7.2",org.flowable.cmmn.converter.export;uses:="javax.xml.strea
+ m,org.flowable.cmmn.converter,org.flowable.cmmn.model";version="6.7.2",
+ org.flowable.cmmn.converter.util;uses:="javax.xml.stream,org.flowable.c
+ mmn.converter,org.flowable.cmmn.model";version="6.7.2",org.flowable.cmm
+ n.converter.util;version="6.7.2",org.flowable.cmmn.converter.exception;
+ version="6.7.2"
+Implementation-Title: Flowable - CMMN Converter
+Implementation-URL: http://www.flowable.org/modules/flowable-cmmn-conver
+ ter
+Implementation-Vendor: Flowable
+Implementation-Vendor-Id: org.flowable
+Implementation-Version: 6.7.2
+Import-Package: org.flowable.cmmn.converter;version="[6.7,6.8)",org.flow
+ able.cmmn.converter.exception;version="[6.7,6.8)",org.flowable.cmmn.con
+ verter.export;version="[6.7,6.8)",org.flowable.cmmn.converter.util;vers
+ ion="[6.7,6.8)",org.flowable.cmmn.model;version="[6.7,6.8)",org.flowabl
+ e.common.engine.api;version="[6.7,6.8)",org.flowable.common.engine.api.
+ io;version="[6.7,6.8)",javax.xml.namespace,javax.xml.stream,javax.xml.t
+ ransform,javax.xml.transform.stax,javax.xml.transform.stream,javax.xml.
+ validation,org.apache.commons.lang3;version="[3.12,4)",org.slf4j;versio
+ n="[1.7,2)",org.xml.sax,org.flowable.osgi;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

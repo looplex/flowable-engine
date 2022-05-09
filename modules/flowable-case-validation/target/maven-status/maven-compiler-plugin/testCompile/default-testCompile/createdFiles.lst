@@ -1,0 +1,4 @@
+org/flowable/cmmn/validation/validator/impl/AbstractValidatorTest.class
+org/flowable/cmmn/validation/validator/impl/DecisionTaskValidatorTest.class
+org/flowable/cmmn/validation/validator/impl/PlanModelValidatorTest.class
+org/flowable/cmmn/validation/validator/impl/HumanTaskValidatorTest.class

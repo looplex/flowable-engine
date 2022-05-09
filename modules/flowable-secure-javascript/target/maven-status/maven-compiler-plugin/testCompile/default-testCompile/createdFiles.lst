@@ -1,0 +1,3 @@
+org/flowable/test/scripting/secure/SecureScriptingTest.class
+org/flowable/test/scripting/secure/SecureScriptingBaseTest.class
+org/flowable/test/scripting/secure/SecureScriptingBaseTest$ExposedBean.class

@@ -1,0 +1,3 @@
+org/flowable/dmn/spring/configurator/test/SpringDmnFlowableTestCase.class
+org/flowable/dmn/spring/configurator/test/TestRuleBean.class
+org/flowable/dmn/spring/configurator/test/DecisionTaskWithSpringBeanTest.class

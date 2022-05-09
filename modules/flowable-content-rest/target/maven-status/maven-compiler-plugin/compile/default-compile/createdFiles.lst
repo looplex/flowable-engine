@@ -1,0 +1,13 @@
+org/flowable/content/rest/ContentRestUrls.class
+org/flowable/content/rest/service/api/management/ContentEngineResource.class
+org/flowable/content/rest/service/api/content/ContentItemResource.class
+org/flowable/content/rest/ContentRestApiInterceptor.class
+org/flowable/content/rest/service/api/content/ContentItemQueryRequest.class
+org/flowable/content/rest/service/api/content/ContentItemRequest.class
+org/flowable/content/rest/service/api/content/ContentItemResponse.class
+org/flowable/content/rest/ContentRestUrlBuilder.class
+org/flowable/content/rest/ContentRestResponseFactory.class
+org/flowable/content/rest/service/api/content/ContentItemCollectionResource.class
+org/flowable/content/rest/service/api/content/ContentItemBaseResource.class
+org/flowable/content/rest/service/api/content/ContentItemQueryResource.class
+org/flowable/content/rest/service/api/content/ContentItemDataResource.class

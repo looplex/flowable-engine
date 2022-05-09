@@ -1,0 +1,12 @@
+org/flowable/external/job/rest/service/api/query/ExternalWorkerJobCollectionResourceTest.class
+org/flowable/external/job/rest/service/ExternalJobCmmnRestSpringBootTest.class
+org/flowable/external/job/rest/service/DispatcherServletConfiguration.class
+org/flowable/external/job/rest/service/ExternalJobRestSpringBootTest.class
+org/flowable/external/job/rest/service/ExternalJobBpmnRestSpringBootTest.class
+org/flowable/external/job/rest/conf/BpmnEngineTestConfiguration.class
+org/flowable/external/job/rest/service/api/acquire/ExternalWorkerAcquireJobResourceTest.class
+org/flowable/external/job/rest/conf/CmmnEngineStandaloneConfiguration.class
+org/flowable/external/job/rest/conf/ExternalJobRestTestApplication.class
+org/flowable/external/job/rest/conf/CmmnEngineTestConfiguration.class
+org/flowable/external/job/rest/service/api/query/ExternalWorkerJobResourceTest.class
+org/flowable/external/job/rest/conf/CmmnEngineWithBpmnConfiguration.class

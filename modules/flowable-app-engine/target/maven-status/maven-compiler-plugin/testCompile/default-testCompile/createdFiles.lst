@@ -1,0 +1,9 @@
+org/flowable/app/engine/test/repository/CustomAppModel.class
+org/flowable/app/engine/test/repository/AppDefinitionCategoryTest.class
+org/flowable/app/engine/test/repository/DeploymentQueryTest.class
+org/flowable/app/engine/test/repository/DeploymentTest.class
+org/flowable/app/engine/test/persistence/EntitiesTest.class
+org/flowable/app/engine/test/cfg/ForceCloseMybatisConnectionPoolTest.class
+org/flowable/app/engine/test/repository/AppDefinitionQueryTest.class
+org/flowable/app/engine/test/repository/CustomAppResourceConverter.class
+org/flowable/app/engine/test/repository/CustomAppModelTest.class

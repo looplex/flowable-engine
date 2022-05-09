@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605839834
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Flowable - Spring Common
+Bundle-SymbolicName: org.flowable.common.spring
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.flowable.common.spring;uses:="org.flowable.common.en
+ gine.impl.cfg,org.flowable.common.engine.impl.interceptor,org.flowable.
+ common.engine.impl.lock,org.slf4j,org.springframework.context,org.sprin
+ gframework.core,org.springframework.core.io,org.springframework.transac
+ tion,org.springframework.transaction.support";version="6.7.2",org.flowa
+ ble.common.spring.async;uses:="org.flowable.common.engine.api.async,org
+ .springframework.core.task";version="6.7.2"
+Implementation-Title: Flowable - Spring Common
+Implementation-URL: http://www.flowable.org/modules/flowable-spring-comm
+ on
+Implementation-Vendor: Flowable
+Implementation-Vendor-Id: org.flowable
+Implementation-Version: 6.7.2
+Import-Package: org.flowable.common.engine.api;version="[6.7,6.8)",org.f
+ lowable.common.engine.api.async;version="[6.7,6.8)",org.flowable.common
+ .engine.impl.cfg;version="[6.7,6.8)",org.flowable.common.engine.impl.in
+ terceptor;version="[6.7,6.8)",org.flowable.common.engine.impl.lock;vers
+ ion="[6.7,6.8)",org.apache.commons.lang3;version="[3.12,4)",org.slf4j;v
+ ersion="[1.7,2)",org.springframework.aop.framework,org.springframework.
+ aop.support,org.springframework.context,org.springframework.core,org.sp
+ ringframework.core.io,org.springframework.core.task,org.springframework
+ .scheduling.concurrent,org.springframework.transaction,org.springframew
+ ork.transaction.support,org.springframework.util.concurrent,org.flowabl
+ e.osgi;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

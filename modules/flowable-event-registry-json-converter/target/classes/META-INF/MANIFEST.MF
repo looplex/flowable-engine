@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605640839
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: flowable-event-registry-json-converter
+Bundle-SymbolicName: org.flowable.eventregistry.json.converter
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.flowable.eventregistry.json.converter;uses:="com.fas
+ terxml.jackson.databind,org.flowable.eventregistry.model";version="6.7.
+ 2"
+Implementation-Title: flowable-event-registry-json-converter
+Implementation-URL: http://www.flowable.org/modules/flowable-event-regis
+ try-json-converter
+Implementation-Vendor: Flowable
+Implementation-Vendor-Id: org.flowable
+Implementation-Version: 6.7.2
+Import-Package: org.flowable.eventregistry.model;version="[6.7,6.8)",com
+ .fasterxml.jackson.databind;version="[2.13,3)",com.fasterxml.jackson.da
+ tabind.node;version="[2.13,3)",org.apache.commons.lang3;version="[3.12,
+ 4)",org.flowable.osgi;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

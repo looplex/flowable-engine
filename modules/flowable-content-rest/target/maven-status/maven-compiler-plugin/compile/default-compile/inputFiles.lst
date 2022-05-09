@@ -1,0 +1,13 @@
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/main/java/org/flowable/content/rest/ContentRestApiInterceptor.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/main/java/org/flowable/content/rest/service/api/content/ContentItemQueryResource.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/main/java/org/flowable/content/rest/service/api/content/ContentItemCollectionResource.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/main/java/org/flowable/content/rest/service/api/content/ContentItemResponse.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/main/java/org/flowable/content/rest/service/api/content/ContentItemBaseResource.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/main/java/org/flowable/content/rest/service/api/content/ContentItemDataResource.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/main/java/org/flowable/content/rest/service/api/content/ContentItemRequest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/main/java/org/flowable/content/rest/ContentRestUrlBuilder.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/main/java/org/flowable/content/rest/service/api/content/ContentItemQueryRequest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/main/java/org/flowable/content/rest/service/api/content/ContentItemResource.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/main/java/org/flowable/content/rest/service/api/management/ContentEngineResource.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/main/java/org/flowable/content/rest/ContentRestResponseFactory.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-content-rest/src/main/java/org/flowable/content/rest/ContentRestUrls.java

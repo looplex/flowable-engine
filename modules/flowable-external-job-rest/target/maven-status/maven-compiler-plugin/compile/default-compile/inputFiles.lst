@@ -1,0 +1,16 @@
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/main/java/org/flowable/external/job/rest/service/api/query/ExternalWorkerJobQueryRequest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/main/java/org/flowable/external/job/rest/service/api/query/ExternalWorkerJobCollectionResource.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/main/java/org/flowable/external/job/rest/service/api/query/ExternalWorkerJobResource.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/main/java/org/flowable/external/job/rest/service/api/acquire/AcquiredExternalWorkerJobResponse.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/main/java/org/flowable/external/job/rest/service/api/acquire/ExternalWorkerJobCompleteRequest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/main/java/org/flowable/external/job/rest/service/api/ExternalJobRestUrls.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/main/java/org/flowable/external/job/rest/service/api/acquire/BaseExternalWorkCompletionRequest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/main/java/org/flowable/external/job/rest/service/api/query/ExternalWorkerJobResponse.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/main/java/org/flowable/external/job/rest/service/api/ExternalWorkerJobBaseResource.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/main/java/org/flowable/external/job/rest/service/api/ExternalWorkerJobRestApiInterceptor.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/main/java/org/flowable/external/job/rest/service/api/acquire/AcquireExternalWorkerJobRequest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/main/java/org/flowable/external/job/rest/service/api/acquire/ExternalWorkerJobFailureRequest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/main/java/org/flowable/external/job/rest/service/api/acquire/ExternalWorkerJobTerminateRequest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/main/java/org/flowable/external/job/rest/service/api/acquire/ExternalWorkerJobErrorRequest.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/main/java/org/flowable/external/job/rest/service/api/ExternalJobRestResponseFactory.java
+/home/octavio/Downloads/flowable-engine-flowable-6.7.2/modules/flowable-external-job-rest/src/main/java/org/flowable/external/job/rest/service/api/acquire/ExternalWorkerAcquireJobResource.java

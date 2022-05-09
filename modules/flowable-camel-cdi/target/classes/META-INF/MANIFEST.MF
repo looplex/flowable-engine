@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1651605975954
+Build-Jdk: 1.8.0_312
+Built-By: octavio
+Bundle-Description: BPM and workflow engine
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Flowable - Camel CDI
+Bundle-SymbolicName: org.flowable.camel.cdi
+Bundle-Vendor: Flowable
+Bundle-Version: 6.7.2
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.flowable.camel.cdi;uses:="org.apache.camel,org.flowa
+ ble.camel,org.flowable.engine.delegate";version="6.7.2",org.flowable.ca
+ mel.cdi.impl;uses:="org.flowable.camel,org.flowable.camel.cdi";version=
+ "6.7.2"
+Implementation-Title: Flowable
+Implementation-Version: 6.7.2
+Import-Package: javax.enterprise.context.spi,javax.enterprise.inject.spi
+ ,org.apache.camel;version="[2.25,3)",org.apache.commons.lang3;version="
+ [3.12,4)",org.flowable.camel;version="[6.7,7)",org.flowable.camel.cdi,o
+ rg.flowable.cdi.impl.util,org.flowable.common.engine.api.delegate;versi
+ on="[6.7,7)",org.flowable.engine;version="[6.7,7)",org.flowable.engine.
+ delegate;version="[6.7,7)",org.flowable.engine.impl.cfg;version="[6.7,7
+ )",org.flowable.engine.impl.context;version="[6.7,7)",org.flowable.osgi
+ ;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849
