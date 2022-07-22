@@ -8070,12 +8070,6 @@ definitions:
         type: "string"
       exporterVersion:
         type: "string"
-      namespaces:
-        type: "object"
-        additionalProperties:
-          type: "string"
-      mainProcess:
-        $ref: "#/definitions/Process"
       errors:
         type: "object"
         additionalProperties:
@@ -8084,6 +8078,8 @@ definitions:
         type: "array"
         items:
           $ref: "#/definitions/Message"
+      mainProcess:
+        $ref: "#/definitions/Process"
       messageFlows:
         type: "object"
         additionalProperties:
@@ -8100,6 +8096,10 @@ definitions:
         type: "object"
         additionalProperties:
           $ref: "#/definitions/DataStore"
+      namespaces:
+        type: "object"
+        additionalProperties:
+          type: "string"
   CommentRequest:
     type: "object"
     properties:
@@ -10387,14 +10387,14 @@ definitions:
         $ref: "#/definitions/FlowElement"
       enableEagerExecutionTreeFetching:
         type: "boolean"
-      flowElements:
-        type: "array"
-        items:
-          $ref: "#/definitions/FlowElement"
       artifacts:
         type: "array"
         items:
           $ref: "#/definitions/Artifact"
+      flowElements:
+        type: "array"
+        items:
+          $ref: "#/definitions/FlowElement"
   ProcessDefinitionActionRequest:
     type: "object"
     required:

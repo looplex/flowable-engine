@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1651605673417
-Build-Jdk: 1.8.0_312
+Bnd-LastModified: 1658431632156
+Build-Jdk: 11.0.15
 Built-By: octavio
 Bundle-Description: BPM and workflow engine
 Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html

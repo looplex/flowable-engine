@@ -9175,15 +9175,6 @@
         "exporterVersion" : {
           "type" : "string"
         },
-        "namespaces" : {
-          "type" : "object",
-          "additionalProperties" : {
-            "type" : "string"
-          }
-        },
-        "mainProcess" : {
-          "$ref" : "#/definitions/Process"
-        },
         "errors" : {
           "type" : "object",
           "additionalProperties" : {
@@ -9195,6 +9186,9 @@
           "items" : {
             "$ref" : "#/definitions/Message"
           }
+        },
+        "mainProcess" : {
+          "$ref" : "#/definitions/Process"
         },
         "messageFlows" : {
           "type" : "object",
@@ -9218,6 +9212,12 @@
           "type" : "object",
           "additionalProperties" : {
             "$ref" : "#/definitions/DataStore"
+          }
+        },
+        "namespaces" : {
+          "type" : "object",
+          "additionalProperties" : {
+            "type" : "string"
           }
         }
       }
@@ -12510,16 +12510,16 @@
         "enableEagerExecutionTreeFetching" : {
           "type" : "boolean"
         },
-        "flowElements" : {
-          "type" : "array",
-          "items" : {
-            "$ref" : "#/definitions/FlowElement"
-          }
-        },
         "artifacts" : {
           "type" : "array",
           "items" : {
             "$ref" : "#/definitions/Artifact"
+          }
+        },
+        "flowElements" : {
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/FlowElement"
           }
         }
       }

@@ -1074,11 +1074,13 @@ definitions:
         type: "boolean"
       containerNode:
         type: "boolean"
-      integralNumber:
+      missingNode:
         type: "boolean"
       object:
         type: "boolean"
-      missingNode:
+      pojo:
+        type: "boolean"
+      integralNumber:
         type: "boolean"
       floatingPointNumber:
         type: "boolean"
@@ -1099,6 +1101,4 @@ definitions:
       boolean:
         type: "boolean"
       binary:
-        type: "boolean"
-      pojo:
         type: "boolean"

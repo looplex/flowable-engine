@@ -148,6 +148,16 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-xml</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-json</artifactId>
+            <scope>provided</scope>
+        </dependency>        
+        <dependency>
             <groupId>org.drools</groupId>
             <artifactId>drools-core</artifactId>
             <scope>provided</scope>

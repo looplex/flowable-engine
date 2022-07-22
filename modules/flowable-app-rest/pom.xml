@@ -800,6 +800,14 @@
             <artifactId>groovy-jsr223</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-xml</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-json</artifactId>
+        </dependency>
+        <dependency>
             <groupId>javax.xml.bind</groupId> <!-- Needed for swagger doc generation -->
             <artifactId>jaxb-api</artifactId>
         </dependency>
